@@ -20,13 +20,18 @@ body {
 
 /* Main Page Layout */
 
-#main-content {
+.main-content {
   margin: 225px 425px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
 }
-
+/* padding only for direct children (ie6 compatible) */
+.main-content div{
+  padding-top: 96px;
+}
+.main-content div div{
+  padding-top: 0px;
+}
 
 
 
@@ -36,6 +41,9 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  /* background */
+  height: 100vh;
+  position: relative;
 }
 
 #portfolio-header-image-container {
@@ -55,6 +63,19 @@ body {
   flex-direction: column;
   gap: 34px;
   flex-basis: 50%;
+  position: absolute;
+  top: 35vh;
+}
+
+#title-gif {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 60%;
+  height: 100vh;
+
+  mask-image: linear-gradient(to right, transparent, black);
+  -webkit-mask-image: linear-gradient(to right, transparent, black);
 }
 
 
@@ -83,6 +104,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-top: 120px;
 }
 
 .projects-container {
@@ -174,33 +196,47 @@ body {
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
-  #main-content {
-    margin: 225px 275px;
+  .home-main-content {
+    margin: 0px 275px;
+  }
+  .project-main-content {
+    margin: 35px 275px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1200px) {
-  #main-content {
-    margin: 225px 175px;
+  .home-main-content {
+    margin: 0px 175px;
+  }
+  .project-main-content {
+    margin: 35px 175px;
   }
 }
 
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
-  #main-content {
-    margin: 225px 75px;
+  .home-main-content {
+    margin: 0px 75px;
+  }
+  .project-main-content {
+    margin: 35px 75px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
-  #main-content {
-    margin: 150px 50px;
+  .home-main-content {
+    margin: 0px 50px;
   }
 
   #portfolio-header {
     flex-direction: column;
+    padding-top: 30vh;
+  }
+
+  #my-work-section {
+    margin-top: 0px;
   }
 
   .project-card {
@@ -210,8 +246,11 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
-  #main-content {
-    margin: 125px 20px;
+  .home-main-content {
+    margin: 0px 20px;
+  }
+  .project-main-content {
+    margin: 30px 20px;
   }
 
   .project-card {

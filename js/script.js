@@ -7,7 +7,7 @@ if (document.getElementById('my-work-link')) {
 
 // set nav bar background opacity and blur by scroll
 const PIXELS_TO_SCROLL=200;
-const MAX_BLUR=19;
+const MAX_BLUR=30;
 
 const navbar = document.querySelector('#navbar');
 function handleScroll() {

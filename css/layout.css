@@ -18,7 +18,7 @@ body {
 
 
 
-/* Main Page Layout */
+/* MAIN PAGE LAYOUT */
 
 .main-content {
   margin: 225px 425px;
@@ -35,7 +35,7 @@ body {
 
 
 
-/* Portfolio Header */
+/* PORTFOLIO HEADER */
 
 #portfolio-header {
   display: flex;
@@ -81,7 +81,7 @@ body {
 
 
 
-/* About Section */
+/* ABOUT */
 
 #about-section {
   display: flex;
@@ -98,7 +98,7 @@ body {
 
 
 
-/* Project Section */
+/* MY WORK */
 
 #my-work-section {
   display: flex;
@@ -113,32 +113,34 @@ body {
   flex-wrap: wrap;
 }
 
-    /* Project Cards */
+    /* PROJECT CARDS */
 
     .project-card {
       max-width: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: column;
       gap: 34px;
+      width: 100%;
     }
 
     .project-card-text-container {
       flex-direction: column;
       display: flex;
-      gap: 16px
+      gap: 16px;
     }
 
     .project-image {
       width: 100%;
-      height: 200px;
+      height: 27vh;
       object-fit: cover;
       object-position: center;
+      object-fit:cover;
     }
 
 
 
 
-/* Project Pages */
+/* PROJECT PAGE */
 
 #project-header {
   display: flex;
@@ -163,7 +165,7 @@ body {
   gap: 34px;
 }
 
-    /* Project Gallery */
+    /* PHOTO GALLERY */
 
     #project-gallery {
       display: flex;
@@ -171,26 +173,24 @@ body {
       gap: 16px;
     }
 
-    .project-gallery-content {
+    .gallery-container {
       display: flex;
-      flex-wrap: wrap;
-      gap: 34px 16px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
-
-    .gallery-image-container {
-      width: 100%;
+    
+    .gallery-container .dream {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      /* depends on num columns */
+      width: 32.5%;
+      text-wrap: wrap;
     }
-
-    .gallery-image-container.half-width {
-      width: calc((100% - 16px) / 2);
-    }
-
-    .gallery-image {
+    .gallery-container img {
       width: 100%;
       height: auto;
+      padding-bottom: 12px;
     }
 
 
@@ -242,6 +242,19 @@ body {
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
+
+  /* make image gallery inline*/
+    .gallery-container {
+      flex-direction: column;
+    }
+
+    .gallery-container .dream {
+      width: 100%;
+    }
+
+    .gallery-container .dream .image-container {
+      margin-bottom: 40px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */

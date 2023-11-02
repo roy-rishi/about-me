@@ -21,7 +21,7 @@ body {
 /* MAIN PAGE LAYOUT */
 
 .main-content {
-  margin: 225px 425px;
+  margin: 80px 425px;
   display: flex;
   flex-direction: column;
 }
@@ -150,7 +150,8 @@ body {
 
 .project-header-image {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 #project-details {
@@ -180,11 +181,11 @@ body {
       align-items: center;
     }
     
-    .gallery-container .dream {
+    .gallery-container .column {
       display: flex;
       flex-direction: column;
-      /* depends on num columns */
-      width: 32.5%;
+      /* depends on number of columns */
+      width: 32%;
       text-wrap: wrap;
     }
     .gallery-container img {
@@ -248,11 +249,11 @@ body {
       flex-direction: column;
     }
 
-    .gallery-container .dream {
+    .gallery-container .column {
       width: 100%;
     }
-
-    .gallery-container .dream .image-container {
+    /* image and caption */
+    .gallery-container .column .image-container {
       margin-bottom: 40px;
     }
 }

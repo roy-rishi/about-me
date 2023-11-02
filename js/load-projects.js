@@ -149,7 +149,7 @@ function loadHomePage() {
 
 // set url origin to local or server location
 var imgBaseURL = window.location.origin === "file://" ? "./assets/images/" : window.location.origin + "/assets/images/";
-var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "project";
+var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "/project";
 
 console.log("images at " + imgBaseURL);
 

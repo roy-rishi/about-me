@@ -5,7 +5,8 @@ const content = JSON.parse(
             "id": "red-pandas",
             "title": "Red Pandas",
             "descr": "Raising awareness for Red Pandas, one webpage at a time",
-            "image": "red-panda/0.webp",
+            "thumbnail": "red-panda/0.webp",
+            "banner": "",
             "body":
                 [
                     {
@@ -33,23 +34,6 @@ const content = JSON.parse(
                         ]
                     }
                 ]
-        },
-        {
-            "id": "violin-robot",
-            "title": "Violin Playing Robot",
-            "descr": "",
-            "image": "camera.jpeg",
-            "body":
-                [
-                    {
-                        "type": "paragraph",
-                        "heading": "Details",
-                        "content": [
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                            "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-                        ]
-                    }
-                ]
         }
     ]`
 );
@@ -68,10 +52,25 @@ function getQueryValue(q) {
 
 // load header
 function loadHeader(proj) {
-    // set name, description, & header image
-    document.getElementById("project-name").innerHTML = proj["title"];
-    document.getElementById("description").innerHTML = proj["descr"];
-    document.getElementById("header-img").src = imgBaseURL + proj["image"];
+    // title
+    title = document.createElement("div");
+    title.setAttribute("class", "main-title");
+    title.innerHTML = proj["title"];
+    document.getElementById("project-header").appendChild(title);
+
+    // description
+    descr = document.createElement("div")
+    descr.setAttribute("class", "body-text");
+    descr.innerHTML = proj["descr"];
+    document.getElementById("project-header").appendChild(descr);
+
+    // bannner
+    banner = document.createElement("img")
+    banner.setAttribute("class", "project-header-image");
+    // if no banner image, select thumnail as banner, if banner field = "", no banner image
+    banner.setAttribute("src", imgBaseURL + (proj["banner"] != null ? proj["banner"] : proj["thumbnail"]));
+    if (proj["banner"] != "")
+        document.getElementById("project-header").appendChild(banner);
     console.log("wrote project name, descr, header img")
 }
 
@@ -200,7 +199,7 @@ function loadHomePage() {
         console.log(proj);
 
         let newContent = `
-        <img src="${imgBaseURL + proj["image"]}" class="project-image">
+        <img src="${imgBaseURL + proj["thumbnail"]}" class="project-image">
         <div class="project-card-text-container">
             <div class="subheader-text project-title">${proj["title"]}</div>
             <div class="body-text project-card-text">${proj["descr"]}</div>

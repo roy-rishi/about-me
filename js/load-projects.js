@@ -3,6 +3,7 @@ const content = JSON.parse(
     [
         {
             "id": "red-pandas",
+            "unlisted": "",
             "title": "Red Pandas",
             "descr": "Raising awareness for Red Pandas, one webpage at a time",
             "thumbnail": "red-panda/0.webp",
@@ -37,7 +38,6 @@ const content = JSON.parse(
         },
         {
             "id": "violin-robot",
-            "unlisted": true,
             "title": "Violin Robot",
             "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
             "thumbnail": "violin-robot/render2.webp",
@@ -265,12 +265,12 @@ function loadHomePage() {
         </a>`;
 
         // if not unlisted, add to project list
-        if (proj["unlisted"] != null) {
-        const newCard = document.createElement('div');
+        if (proj["unlisted"] == null) {
+            const newCard = document.createElement('div');
             newCard.setAttribute("class", "project-card");
             newCard.innerHTML = newContent;
             projectsContainer.appendChild(newCard);
-            }
+        }
     }
 }
 

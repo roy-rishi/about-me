@@ -27,7 +27,7 @@ body {
 }
 /* padding only for direct children (ie6 compatible) */
 .main-content div{
-  padding-top: 96px;
+  padding-top: 80px;
 }
 .main-content div div{
   padding-top: 0px;
@@ -119,7 +119,7 @@ body {
       max-width: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: column;
-      gap: 34px;
+      gap: 26px;
       width: 100%;
       position: relative;
       /* at least button height */

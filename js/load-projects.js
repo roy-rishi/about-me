@@ -46,7 +46,8 @@ const content = JSON.parse(
                         "type": "paragraph",
                         "heading": "Details",
                         "content": [
-                            "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here."
+                            "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here.",
+                            "Design files at: <a href='https://github.com/roy-rishi/violin-robot' class='no-underline'>github.com/roy-rishi/violin-robot</a>"
                         ]
                     },
                     {
@@ -70,6 +71,33 @@ const content = JSON.parse(
                             ],[
                                 "violin-robot/cad3.webp",
                                 "violin-robot/cad4.webp"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "heading": "Specialized Circuit Board",
+                        "content": [
+                            "Based on the ATmega2560 microcontroller, this board performs hardware actions requested by a Raspberry Pi single board computer. It drives 6 stepper motors, takes sensor input, and manages a custom active cooling system. It implements robust power supply circuity and cooling to drive motors at 36 V, for a system maximum of 360 W."
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "",
+                        "content": [
+                            [
+                                "violin-robot/ee3.png",
+                                "violin-robot/ee4.png"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "",
+                        "content": [
+                            [
+                                "violin-robot/ee1.png",
+                                "violin-robot/ee2.png"
                             ]
                         ]
                     }

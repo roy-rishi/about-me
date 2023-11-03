@@ -6,54 +6,50 @@ const content = JSON.parse(
             "title": "Red Pandas",
             "descr": "Raising awareness for Red Pandas, one webpage at a time",
             "image": "red-panda/0.webp",
-            "details": [
-                "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
-                "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
-                "— WWF"
-            ],
-            "gallery": [
+            "body":
                 [
-                    "red-panda/2.webp",
-                    "red-panda/0.webp"
-                ],
-                [
-                    "red-panda/3.webp",
-                    "red-panda/4.webp"
-                ],
-                [
-                    "red-panda/1.webp"
+                    {
+                        "type": "paragraph",
+                        "heading": "Details",
+                        "content": [
+                            "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
+                            "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
+                            "— WWF"
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "Gallery",
+                        "content": [
+                            [
+                                "red-panda/2.webp",
+                                "red-panda/0.webp"
+                            ],[
+                                "red-panda/3.webp",
+                                "red-panda/4.webp"
+                            ],[
+                                "red-panda/1.webp"
+                            ]
+                        ]
+                    }
                 ]
-            ]
         },
         {
             "id": "violin-robot",
             "title": "Violin Playing Robot",
             "descr": "",
             "image": "camera.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
-        },
-        {
-            "id": "ecologme",
-            "title": "Ecologme",
-            "descr": "A website promoting sustainability initatives with AI",
-            "image": "sketchbook.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
-        },
-        {
-            "id": "instructables",
-            "title": "Instructables",
-            "descr": "",
-            "image": "sketchbook.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
+            "body":
+                [
+                    {
+                        "type": "paragraph",
+                        "heading": "Details",
+                        "content": [
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
+                            "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
+                        ]
+                    }
+                ]
         }
     ]`
 );
@@ -70,36 +66,57 @@ function getQueryValue(q) {
        return(false);
 }
 
-// load project information into project page
-function loadProjectPage() {
-    // get project defined by url key
-    var query = getQueryValue("p")
-    let proj = null;
-    console.log("query " + query)
-    for (let i = 0; i < content.length; i++) {
-        if (content[i]["id"] == query)
-            proj = content[i];
-    }
-    console.log(proj);
-
+// load header
+function loadHeader(proj) {
     // set name, description, & header image
     document.getElementById("project-name").innerHTML = proj["title"];
     document.getElementById("description").innerHTML = proj["descr"];
     document.getElementById("header-img").src = imgBaseURL + proj["image"];
     console.log("wrote project name, descr, header img")
+}
 
-    // populate details
-    details = proj["details"];
-    for (let i = 0; i < details.length; i++) {
+// load paragraph section
+function loadParagraphSection(header, content) {
+    // section container
+    const secContainer = document.createElement("div");
+    secContainer.setAttribute("id", "project-details");
+    // heading
+    const heading = document.createElement("div");
+    heading.setAttribute("class", "subheader-text");
+    heading.innerHTML = header;
+    secContainer.appendChild(heading);
+    // paragraphs container
+    const pContainer = document.createElement("div");
+    pContainer.setAttribute("class", "project-details-content");
+
+    // add paragraphs
+    for (let i = 0; i < content.length; i++) {
         const p = document.createElement("div");
         p.setAttribute("class", "body-text");
-        p.innerHTML = details[i];
-        document.getElementById("details-container").appendChild(p);
+        p.innerHTML = content[i];
+        pContainer.appendChild(p);
     }
+    secContainer.appendChild(pContainer);
+    document.getElementById("main-body-template").appendChild(secContainer);
+}
 
-    // populate gallery images
-    images = proj["gallery"];
+// load gallery section
+function loadGallerySection(header, images) {
+    // section container
+    const secContainer = document.createElement("div")
+    secContainer.setAttribute("id", "project-gallery");
+    // heading
+    const heading = document.createElement("div");
+    heading.setAttribute("class", "subheader-text");
+    heading.innerHTML = header;
+    secContainer.appendChild(heading);
+    // images container
+    const imgContainer = document.createElement("div")
+    imgContainer.setAttribute("class", "gallery-container");
+
     for (let col = 0; col < images.length; col++) {
+
+        // column container
         const column = document.createElement("div");
         column.setAttribute("class", "column");
 
@@ -116,8 +133,63 @@ function loadProjectPage() {
             imageContainer.appendChild(image);
             column.appendChild(imageContainer);
         }
-        document.getElementById("gallery-template").appendChild(column);
+        imgContainer.appendChild(column);
     }
+    secContainer.appendChild(imgContainer);
+    document.getElementById("main-body-template").appendChild(secContainer);
+    // set width css
+}
+
+// load project information into project page
+function loadProjectPage() {
+    // get project defined by url key
+    var query = getQueryValue("p")
+    let proj = null;
+    console.log("query " + query)
+    for (let i = 0; i < content.length; i++) {
+        if (content[i]["id"] == query)
+            proj = content[i];
+    }
+    console.log(proj);
+
+    // load header
+    loadHeader(proj);
+
+    // populate body from array
+    for (let i = 0; i < proj["body"].length; i++) {
+        let section = proj["body"][i];
+        let secType = section["type"];
+
+        if (secType == "paragraph") {
+            loadParagraphSection(section["heading"], section["content"]);
+        }
+        if (secType == "gallery") {
+            loadGallerySection(section["heading"], section["content"]);
+        }
+    }
+
+
+    // populate gallery images
+    // images = proj["gallery"];
+    // for (let col = 0; col < images.length; col++) {
+    //     const column = document.createElement("div");
+    //     column.setAttribute("class", "column");
+
+    //     for (let row = 0; row < images[col].length; row++) {
+    //         console.log("adding to gallery " + imgBaseURL + images[col][row]);
+            
+    //         const imageContainer = document.createElement("div");
+    //         imageContainer.setAttribute("class", "image-container");
+
+    //         const image = document.createElement("img");
+    //         image.setAttribute("class", "gallery-image");
+    //         image.setAttribute("src", imgBaseURL + images[col][row]);
+            
+    //         imageContainer.appendChild(image);
+    //         column.appendChild(imageContainer);
+    //     }
+    //     document.getElementById("gallery-template").appendChild(column);
+    // }
 }
 
 // load project cards into home page

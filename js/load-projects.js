@@ -5,55 +5,104 @@ const content = JSON.parse(
             "id": "red-pandas",
             "title": "Red Pandas",
             "descr": "Raising awareness for Red Pandas, one webpage at a time",
-            "image": "red-panda/0.webp",
-            "details": [
-                "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
-                "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
-                "— WWF"
-            ],
-            "gallery": [
+            "thumbnail": "red-panda/0.webp",
+            "banner": "",
+            "body":
                 [
-                    "red-panda/2.webp",
-                    "red-panda/0.webp"
-                ],
-                [
-                    "red-panda/3.webp",
-                    "red-panda/4.webp"
-                ],
-                [
-                    "red-panda/1.webp"
+                    {
+                        "type": "paragraph",
+                        "heading": "Details",
+                        "content": [
+                            "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
+                            "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
+                            "— WWF"
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "Gallery",
+                        "content": [
+                            [
+                                "red-panda/2.webp",
+                                "red-panda/0.webp"
+                            ],[
+                                "red-panda/3.webp",
+                                "red-panda/4.webp"
+                            ],[
+                                "red-panda/1.webp"
+                            ]
+                        ]
+                    }
                 ]
-            ]
         },
         {
             "id": "violin-robot",
-            "title": "Violin Playing Robot",
-            "descr": "",
-            "image": "camera.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
-        },
-        {
-            "id": "ecologme",
-            "title": "Ecologme",
-            "descr": "A website promoting sustainability initatives with AI",
-            "image": "sketchbook.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
-        },
-        {
-            "id": "instructables",
-            "title": "Instructables",
-            "descr": "",
-            "image": "sketchbook.jpeg",
-            "details": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.",
-                "Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut."
-            ]
+            "unlisted": true,
+            "title": "Violin Robot",
+            "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
+            "thumbnail": "violin-robot/render2.webp",
+            "body":
+                [
+                    {
+                        "type": "paragraph",
+                        "heading": "Details",
+                        "content": [
+                            "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here.",
+                            "Design files at: <a href='https://github.com/roy-rishi/violin-robot' class='no-underline'>github.com/roy-rishi/violin-robot</a>"
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "heading": "Computer-Aided Design",
+                        "content": [
+                            "Files for 3D printing. Designed over the past 6 months, with over 638 versions and two complete restarts. Here are some close-ups, but note that due to the nature of the complexity of this file, all components cannot be digitally assembled together into one picture. What follows are renders of various components, in no particular order."
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "",
+                        "content": [
+                            [
+                                "violin-robot/cad1.webp",
+                                "violin-robot/cad6.webp",
+                                "violin-robot/cad2.webp"
+                            ],[
+                                "violin-robot/cad8.webp",
+                                "violin-robot/cad7.webp"
+                            ],[
+                                "violin-robot/cad3.webp",
+                                "violin-robot/cad4.webp"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "heading": "Specialized Circuit Board",
+                        "content": [
+                            "Based on the ATmega2560 microcontroller, this board performs hardware actions requested by a Raspberry Pi single board computer. It drives 6 stepper motors, takes sensor input, and manages a custom active cooling system. It implements robust power supply circuity and cooling to drive motors at 36 V, for a system maximum of 360 W."
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "",
+                        "content": [
+                            [
+                                "violin-robot/ee3.png",
+                                "violin-robot/ee4.png"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "gallery",
+                        "heading": "",
+                        "content": [
+                            [
+                                "violin-robot/ee1.png",
+                                "violin-robot/ee2.png"
+                            ]
+                        ]
+                    }
+                ]
         }
     ]`
 );
@@ -70,36 +119,72 @@ function getQueryValue(q) {
        return(false);
 }
 
-// load project information into project page
-function loadProjectPage() {
-    // get project defined by url key
-    var query = getQueryValue("p")
-    let proj = null;
-    console.log("query " + query)
-    for (let i = 0; i < content.length; i++) {
-        if (content[i]["id"] == query)
-            proj = content[i];
-    }
-    console.log(proj);
+// load header
+function loadHeader(proj) {
+    // title
+    title = document.createElement("div");
+    title.setAttribute("class", "main-title");
+    title.innerHTML = proj["title"];
+    document.getElementById("project-header").appendChild(title);
 
-    // set name, description, & header image
-    document.getElementById("project-name").innerHTML = proj["title"];
-    document.getElementById("description").innerHTML = proj["descr"];
-    document.getElementById("header-img").src = imgBaseURL + proj["image"];
+    // description
+    descr = document.createElement("div")
+    descr.setAttribute("class", "body-text");
+    descr.innerHTML = proj["descr"];
+    document.getElementById("project-header").appendChild(descr);
+
+    // bannner
+    banner = document.createElement("img")
+    banner.setAttribute("class", "project-header-image");
+    // if no banner image, select thumnail as banner, if banner field = "", no banner image
+    banner.setAttribute("src", imgBaseURL + (proj["banner"] != null ? proj["banner"] : proj["thumbnail"]));
+    if (proj["banner"] != "")
+        document.getElementById("project-header").appendChild(banner);
     console.log("wrote project name, descr, header img")
+}
 
-    // populate details
-    details = proj["details"];
-    for (let i = 0; i < details.length; i++) {
+// load paragraph section
+function loadParagraphSection(header, content) {
+    // section container
+    const secContainer = document.createElement("div");
+    secContainer.setAttribute("id", "project-details");
+    // heading
+    const heading = document.createElement("div");
+    heading.setAttribute("class", "subheader-text");
+    heading.innerHTML = header;
+    secContainer.appendChild(heading);
+    // paragraphs container
+    const pContainer = document.createElement("div");
+    pContainer.setAttribute("class", "project-details-content");
+
+    // add paragraphs
+    for (let i = 0; i < content.length; i++) {
         const p = document.createElement("div");
         p.setAttribute("class", "body-text");
-        p.innerHTML = details[i];
-        document.getElementById("details-container").appendChild(p);
+        p.innerHTML = content[i];
+        pContainer.appendChild(p);
     }
+    secContainer.appendChild(pContainer);
+    document.getElementById("main-body-template").appendChild(secContainer);
+}
 
-    // populate gallery images
-    images = proj["gallery"];
+// load gallery section
+function loadGallerySection(header, images) {
+    // section container
+    const secContainer = document.createElement("div")
+    secContainer.setAttribute("id", "project-gallery");
+    // heading
+    const heading = document.createElement("div");
+    heading.setAttribute("class", "subheader-text");
+    heading.innerHTML = header;
+    secContainer.appendChild(heading);
+    // images container
+    const imgContainer = document.createElement("div")
+    imgContainer.setAttribute("class", "gallery-container");
+
     for (let col = 0; col < images.length; col++) {
+
+        // column container
         const column = document.createElement("div");
         column.setAttribute("class", "column");
 
@@ -116,8 +201,49 @@ function loadProjectPage() {
             imageContainer.appendChild(image);
             column.appendChild(imageContainer);
         }
-        document.getElementById("gallery-template").appendChild(column);
+
+        // assign column width based on on number of columns
+        if (images.length == 1)
+            column.setAttribute("class", "column full-width")
+        if (images.length == 2)
+            column.setAttribute("class", "column half-width")
+        if (images.length == 3)
+            column.setAttribute("class", "column third-width")
+
+        imgContainer.appendChild(column);
     }
+    secContainer.appendChild(imgContainer);
+    document.getElementById("main-body-template").appendChild(secContainer);
+}
+
+// load project information into project page
+function loadProjectPage() {
+    // get project defined by url key
+    var query = getQueryValue("p")
+    let proj = null;
+    console.log("query " + query)
+    for (let i = 0; i < content.length; i++) {
+        if (content[i]["id"] == query)
+            proj = content[i];
+    }
+    console.log(proj);
+
+    // load header
+    loadHeader(proj);
+
+    // populate body from array
+    for (let i = 0; i < proj["body"].length; i++) {
+        let section = proj["body"][i];
+        let secType = section["type"];
+
+        if (secType == "paragraph") {
+            loadParagraphSection(section["heading"], section["content"]);
+        }
+        if (secType == "gallery") {
+            loadGallerySection(section["heading"], section["content"]);
+        }
+    }
+
 }
 
 // load project cards into home page
@@ -128,7 +254,7 @@ function loadHomePage() {
         console.log(proj);
 
         let newContent = `
-        <img src="${imgBaseURL + proj["image"]}" class="project-image">
+        <img src="${imgBaseURL + proj["thumbnail"]}" class="project-image">
         <div class="project-card-text-container">
             <div class="subheader-text project-title">${proj["title"]}</div>
             <div class="body-text project-card-text">${proj["descr"]}</div>
@@ -138,10 +264,13 @@ function loadHomePage() {
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
         </a>`;
 
+        // if not unlisted, add to project list
+        if (proj["unlisted"] != null) {
         const newCard = document.createElement('div');
-        newCard.setAttribute("class", "project-card");
-        newCard.innerHTML = newContent;
-        projectsContainer.appendChild(newCard)
+            newCard.setAttribute("class", "project-card");
+            newCard.innerHTML = newContent;
+            projectsContainer.appendChild(newCard);
+            }
     }
 }
 

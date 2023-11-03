@@ -34,46 +34,6 @@ const content = JSON.parse(
                         ]
                     }
                 ]
-        },
-        {
-            "id": "violin-robot",
-            "title": "Violin Robot",
-            "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
-            "thumbnail": "violin-robot/render2.webp",
-            "body":
-                [
-                    {
-                        "type": "paragraph",
-                        "heading": "Details",
-                        "content": [
-                            "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here."
-                        ]
-                    },
-                    {
-                        "type": "paragraph",
-                        "heading": "Computer-Aided Design",
-                        "content": [
-                            "Files for 3D printing. Designed over the past 6 months, with over 638 versions and two complete restarts. Here are some close-ups, but note that due to the nature of the complexity of this file, all components cannot be digitally assembled together into one picture. What follows are renders of various components, in no particular order."
-                        ]
-                    },
-                    {
-                        "type": "gallery",
-                        "heading": "",
-                        "content": [
-                            [
-                                "violin-robot/cad1.webp",
-                                "violin-robot/cad6.webp",
-                                "violin-robot/cad2.webp"
-                            ],[
-                                "violin-robot/cad8.webp",
-                                "violin-robot/cad7.webp"
-                            ],[
-                                "violin-robot/cad3.webp",
-                                "violin-robot/cad4.webp"
-                            ]
-                        ]
-                    }
-                ]
         }
     ]`
 );

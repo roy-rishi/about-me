@@ -172,11 +172,19 @@ function loadGallerySection(header, images) {
             imageContainer.appendChild(image);
             column.appendChild(imageContainer);
         }
+
+        // assign column width based on on number of columns
+        if (images.length == 1)
+            column.style.width = "100%";
+        if (images.length == 2)
+            column.style.width = "49%";
+        if (images.length == 3)
+            column.style.width = "32%";
+
         imgContainer.appendChild(column);
     }
     secContainer.appendChild(imgContainer);
     document.getElementById("main-body-template").appendChild(secContainer);
-    // set width css
 }
 
 // load project information into project page

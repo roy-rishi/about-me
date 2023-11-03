@@ -174,12 +174,19 @@ function loadGallerySection(header, images) {
         }
 
         // assign column width based on on number of columns
+        // if (images.length == 1)
+        //     column.style.width = "100%";
+        // if (images.length == 2)
+        //     column.style.width = "49%";
+        // if (images.length == 3)
+        //     column.style.width = "32%";
+
         if (images.length == 1)
-            column.style.width = "100%";
+            column.setAttribute("class", "column full-width")
         if (images.length == 2)
-            column.style.width = "49%";
+            column.setAttribute("class", "column half-width")
         if (images.length == 3)
-            column.style.width = "32%";
+            column.setAttribute("class", "column third-width")
 
         imgContainer.appendChild(column);
     }
@@ -215,28 +222,6 @@ function loadProjectPage() {
         }
     }
 
-
-    // populate gallery images
-    // images = proj["gallery"];
-    // for (let col = 0; col < images.length; col++) {
-    //     const column = document.createElement("div");
-    //     column.setAttribute("class", "column");
-
-    //     for (let row = 0; row < images[col].length; row++) {
-    //         console.log("adding to gallery " + imgBaseURL + images[col][row]);
-            
-    //         const imageContainer = document.createElement("div");
-    //         imageContainer.setAttribute("class", "image-container");
-
-    //         const image = document.createElement("img");
-    //         image.setAttribute("class", "gallery-image");
-    //         image.setAttribute("src", imgBaseURL + images[col][row]);
-            
-    //         imageContainer.appendChild(image);
-    //         column.appendChild(imageContainer);
-    //     }
-    //     document.getElementById("gallery-template").appendChild(column);
-    // }
 }
 
 // load project cards into home page

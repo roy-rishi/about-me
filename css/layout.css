@@ -193,9 +193,20 @@ body {
       display: flex;
       flex-direction: column;
       /* depends on number of columns */
-      width: 32%;
+      /* width: 32%; */
       text-wrap: wrap;
     }
+
+    .column.full-width {
+      width: 100%;
+    }
+    .column.half-width {
+      width: 49%;
+    }
+    .column.third-width {
+      width: 32%;
+    }
+
     .gallery-container img {
       width: 100%;
       height: auto;

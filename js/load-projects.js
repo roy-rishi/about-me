@@ -106,14 +106,14 @@ const content = JSON.parse(
             "id": "photo",
             "title": "Photography",
             "descr": "",
-            "thumbnail": "red-panda/0.webp",
+            "thumbnail": "photo/astro_0226.jpg",
             "banner": "",
             "body": [
                 {
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [
-                        "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees."
+                        "With the right camera settings, I was able to capture these shots by traveling to remote forests. My favorite photography destination is Mount Rainier National Park."
                     ]
                 },
                 {
@@ -121,19 +121,19 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "red-panda/2.webp",
-                            "red-panda/0.webp"
+                            "photo/astro_0226.jpg",
+                            "photo/astro_0231.jpg"
                         ],[
-                            "red-panda/3.webp",
-                            "red-panda/4.webp"
+                            "photo/astro_0227.jpg"
                         ],[
-                            "red-panda/1.webp"
+                            "photo/astro_0245.jpg",
+                            "photo/astro_0222.jpg"
                         ]
                     ]
                 },
                 {
-                    "type": "script",
-                    "content": "console.log('script is scripting');"
+                    "type": "style",
+                    "content": "body \{background-color: rgb(0, 0, 0); color: white;\} \#navbar \{background-color: rgb(0, 0, 0);\} \#navbar * \{color:white;\}"
                 }
             ]
         }
@@ -254,6 +254,12 @@ function loadJS(stringEval) {
     eval(stringEval)
 }
 
+function loadStyle(content) {
+    style = document.createElement("style");
+    style.innerHTML = content;
+    document.getElementById("main-body-template").appendChild(style);
+}
+
 
 
 // load project information into project page
@@ -284,6 +290,9 @@ function loadProjectPage() {
         }
         if (secType == "script") {
             loadJS(section["content"]);
+        }
+        if (secType == "style") {
+            loadStyle(section["content"]);
         }
     }
 

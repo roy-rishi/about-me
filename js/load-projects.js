@@ -132,6 +132,29 @@ const content = JSON.parse(
                     ]
                 },
                 {
+                    "type": "paragraph",
+                    "heading": "Wildlife Photography",
+                    "content": [
+                        "I have captured numerous animals on photograph, driving anywhere from the mountains to the tundra to set up my camera."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "photo/wild_0450.jpg",
+                            "photo/wild_0463.jpg"
+                        ],[
+                            "photo/wild_0481.jpg",
+                            "photo/wild_0498.jpg"
+                        ],[
+                            "photo/wild_0564.jpg",
+                            "photo/wild_0406.jpg"
+                        ]
+                    ]
+                },
+                {
                     "type": "style",
                     "content": "body \{background-color: rgb(0, 0, 0); color: white;\} \#navbar \{background-color: rgb(0, 0, 0);\} \#navbar * \{color:white;\}"
                 }

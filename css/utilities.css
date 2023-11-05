@@ -7,7 +7,7 @@
   margin-top: 1px;
 }
 
-.footer-icon {
+/* .footer-icon {
   width: 20px;
   height: 20px;
 }
@@ -21,7 +21,7 @@ a.icon-link:hover {
   stroke-width: 5;
   margin: 0;
   transform: rotate(15deg);
-}
+} */
 
 
 /* Navbar Styling */
@@ -51,6 +51,18 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   text-decoration: underline;
+}
+
+#loading-indicator {
+  width: 24px;
+  position: absolute;
+  left: 50%;
+  height: 24px;
+  margin-top: 1px;
+
+  /* js fade out effect */
+  opacity: 0;
+  transition: opacity 0.15s ease;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */

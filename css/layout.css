@@ -140,7 +140,7 @@ body {
     .project-image {
       width: 100%;
       /* height: 27vh; */
-      aspect-ratio: 3 / 2;
+      aspect-ratio: 4 / 3;
       object-fit: cover;
       object-position: center;
       object-fit:cover;

@@ -154,7 +154,7 @@ const content = JSON.parse(
                             "photo/wild_0498.jpg"
                         ],[
                             "photo/wild_0564.jpg",
-                            "photo/wild_0406.jpg"
+                            "photo/wild_0631.jpg"
                         ]
                     ]
                 },
@@ -180,6 +180,38 @@ const content = JSON.parse(
                             "photo/flower_0301.jpg",
                             "photo/flower_0284.jpg",
                             "photo/flower_0291.jpg"
+                        ]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "photo/land_0584.jpg",
+                            "photo/land_0620.jpg",
+                            "photo/land_121539.jpg"
+                        ],[
+                            "photo/land_0855.jpg",
+                            "photo/land_2129.jpg",
+                            "photo/land_1026.jpg"
+                        ],[
+                            "photo/land_095247.jpg",
+                            "photo/land_113230.jpg",
+                            "photo/land_163900.jpg"
+                        ]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "photo/macro_0028.jpg"
+                        ],[
+                            "photo/macro_0643.jpg"
+                        ],[
+                            "photo/macro_0224.jpg"
                         ]
                     ]
                 }

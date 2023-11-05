@@ -106,14 +106,14 @@ const content = JSON.parse(
             "id": "photo",
             "title": "Photography",
             "descr": "",
-            "thumbnail": "photo/astro_0226.jpg",
+            "thumbnail": "photo/wild_0498.jpg",
             "banner": "",
             "body": [
                 {
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [
-                        "With the right camera settings, I was able to capture these shots by traveling to remote forests. My favorite photography destination is Mount Rainier National Park."
+                        "By traveling to a remote forest and by using the right camera settings, I was able to bring out the stars in the sky. My favorite photography destination is Mount Rainier National Park."
                     ]
                 },
                 {
@@ -155,8 +155,33 @@ const content = JSON.parse(
                     ]
                 },
                 {
+                    "type": "paragraph",
+                    "heading": "Other Photography",
+                    "content": [
+                        "I am always taking photos, bringing a camera with me more times than not. Here are miscellaneous galleries of my shots."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "photo/flower_0298.jpg",
+                            "photo/flower_0287.jpg",
+                            "photo/flower_0289.jpg"
+                        ],[
+                            "photo/flower_0292.jpg",
+                            "photo/flower_0284.jpg",
+                            "photo/flower_0291.jpg"
+                        ],[
+                            "photo/flower_0301.jpg",
+                            "photo/flower_0293.jpg"
+                        ]
+                    ]
+                },
+                {
                     "type": "style",
-                    "content": "body \{background-color: rgb(0, 0, 0); color: white;\} \#navbar \{background-color: rgb(0, 0, 0);\} \#navbar * \{color:white;\}"
+                    "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\}"
                 }
             ]
         }

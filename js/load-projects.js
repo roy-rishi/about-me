@@ -110,6 +110,10 @@ const content = JSON.parse(
             "banner": "",
             "body": [
                 {
+                    "type": "style",
+                    "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\} .right-arrow-icon \{filter:invert(1);\}"
+                },
+                {
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [
@@ -178,10 +182,6 @@ const content = JSON.parse(
                             "photo/flower_0291.jpg"
                         ]
                     ]
-                },
-                {
-                    "type": "style",
-                    "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\}"
                 }
             ]
         }

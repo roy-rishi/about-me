@@ -110,10 +110,14 @@ const content = JSON.parse(
             "banner": "",
             "body": [
                 {
+                    "type": "style",
+                    "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\} .right-arrow-icon \{filter:invert(1);\}"
+                },
+                {
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [
-                        "By traveling to a remote forest and by using the right camera settings, I was able to bring out the stars in the sky. My favorite photography destination is Mount Rainier National Park."
+                        "I visit remote forests, tweaking my camera settings until I reveal the starry night. Mount Rainier National Park is my ultimate photography location."
                     ]
                 },
                 {
@@ -135,7 +139,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Wildlife Photography",
                     "content": [
-                        "I have captured numerous animals on photograph, driving anywhere from the mountains to the tundra to set up my camera."
+                        "I've captured photos of animals in a variety of places, venturing anywhere from mountains to tundra to get the perfect shot."
                     ]
                 },
                 {
@@ -158,7 +162,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Other Photography",
                     "content": [
-                        "I am always taking photos, bringing a camera with me more times than not. Here are miscellaneous galleries of my shots."
+                        "I am always taking photos, bringing a camera with me to more places than not. Below, you'll find various galleries of my shots."
                     ]
                 },
                 {
@@ -178,10 +182,6 @@ const content = JSON.parse(
                             "photo/flower_0291.jpg"
                         ]
                     ]
-                },
-                {
-                    "type": "style",
-                    "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\}"
                 }
             ]
         }

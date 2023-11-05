@@ -92,8 +92,17 @@ body {
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 2px;
 }
+
+.about-section-content .body-text {
+  margin-bottom: 100px;
+}
+
+.about-section-content .button {
+  margin-top: 15px;
+}
+
 
 
 

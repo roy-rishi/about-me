@@ -215,6 +215,80 @@ const content = JSON.parse(
                     ]
                 }
             ]
+        },
+        {
+            "id": "instructables",
+            "title": "Instructables",
+            "descr": "Inspiring others through my projects",
+            "thumbnail": "instructables/01.jpg",
+            "banner": "",
+            "body": [
+                {
+                    "type": "paragraph",
+                    "heading": "What Instructables Is",
+                    "content": [
+                        "Instructables.com is a website that provides a platform for people to share projects with step-by-step instructions for others to make their own. Users can upload their projects, which include detailed instructions, fiiles, and photos to help others replicate or get inspired from their work. It has become a popular resource for people seeking guidance and inspiration for their DIY endeavors, and it increases accessibilty to a range of topics.",
+                        "I publish many of my projects online, hoping they may inspire others. On Instructables, I write clear and concise guides that that anyone can follow. I not only show how I made my project, but also how <span style='font-style:italic;'>anyone</span> can make it. I use a 3D printer, however I explain alternative tools that can be used, how it can be done by hand, and how individuals could leverage community workshops.",
+                        "<a class='button' href='https://www.instructables.com/member/Zero%20To%20Infinity/'>My Profile<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Contests and Achievements",
+                    "content": [
+                        "Instructables runs contests for creating and publishing new high quality projects. They accept international entries from makers of all ages and professions, and have a community panel judge contest entries.",
+                        "I won first prize for a project on making strap-on cleats for traction in ice. The contest was winter themed, so I created a project (detailed below) that made an important safety device more accessible. The judges appreciated my clear presentation of an effective solution to slippery shoes. Out of nearly 100 entries, my entry was selected for the first prize.",
+                        "I won runner up for a student design challenge. I learned a new skill, and designed a project around it. See more below."
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "<h1>Strap-On Cleats for Ice and Snow Traction</h1>",
+                    "content": [
+                        "Winter can be such a blast, but slips and falls from slippery sidewalks and icy roads pose a serious threat to those that need to walk or commute in icy conditions, such as workers, students, or individuals with disabilities. They are at higher risk for serious injury, but don't always have the option to stay indoors. Snow shoes are often an excellent solution, but they are bulky and inaccessible. Some places rarely experience snow and ice, so homemade strap-on tracks can provide quick, accessible, and affordable relief to icy conditions.",
+                        "<a class='button' href='https://www.instructables.com/Strap-On-Cleats-for-Ice-and-Snow-Traction/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "instructables/01.jpg"
+                        ],[
+                            "instructables/05.jpg"
+                        ]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "CAD Procedure",
+                    "content": [
+                        "With my goal to make it easy for anyone to customize this project to their own needs, I showed an in-depth summary of my design and thought process, highlighting various CAD features that I used to make a cleat for my shoe."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "instructables/06.webp"
+                        ],[
+                            "instructables/03.webp"
+                        ],[
+                            "instructables/04.webp"
+                        ]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "<h1>New Year, New Skill Student Design Challenge</h1>",
+                    "content": [
+                        "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
+                        "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                }
+            ]
         }
     ]`
 );

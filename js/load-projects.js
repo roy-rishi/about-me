@@ -125,13 +125,13 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/astro_0226.jpg",
-                            "photo/astro_0231.jpg"
+                            "photo/astro_0226.webp",
+                            "photo/astro_0231.webp"
                         ],[
                             "photo/astro_0227.jpg"
                         ],[
-                            "photo/astro_0245.jpg",
-                            "photo/astro_0222.jpg"
+                            "photo/astro_0245.webp",
+                            "photo/astro_0222.webp"
                         ]
                     ]
                 },
@@ -147,14 +147,13 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/wild_0450.jpg",
-                            "photo/wild_0463.jpg"
+                            "photo/wild_0498.jpg",
+                            "photo/wild_0463.jpg",
+                            "photo/wild_0564.webp"
                         ],[
                             "photo/wild_0481.jpg",
-                            "photo/wild_0498.jpg"
-                        ],[
-                            "photo/wild_0564.jpg",
-                            "photo/wild_0631.jpg"
+                            "photo/wild_0450.jpg",
+                            "photo/wild_0631.webp"
                         ]
                     ]
                 },
@@ -170,16 +169,16 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/flower_0298.jpg",
-                            "photo/flower_0287.jpg",
-                            "photo/flower_0289.jpg"
+                            "photo/flower_0298.webp",
+                            "photo/flower_0287.webp",
+                            "photo/flower_0289.webp"
                         ],[
-                            "photo/flower_0292.jpg",
-                            "photo/flower_0293.jpg"
+                            "photo/flower_0292.webp",
+                            "photo/flower_0293.webp"
                         ],[
-                            "photo/flower_0301.jpg",
-                            "photo/flower_0284.jpg",
-                            "photo/flower_0291.jpg"
+                            "photo/flower_0301.webp",
+                            "photo/flower_0284.webp",
+                            "photo/flower_0291.webp"
                         ]
                     ]
                 },
@@ -188,17 +187,17 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/land_0584.jpg",
-                            "photo/land_0620.jpg",
-                            "photo/land_121539.jpg"
+                            "photo/land_0584.webp",
+                            "photo/land_0620.webp",
+                            "photo/land_121539.webp"
                         ],[
-                            "photo/land_0855.jpg",
-                            "photo/land_2129.jpg",
-                            "photo/land_1026.jpg"
+                            "photo/land_0855.webp",
+                            "photo/land_2129.webp",
+                            "photo/land_1026.webp"
                         ],[
-                            "photo/land_095247.jpg",
-                            "photo/land_113230.jpg",
-                            "photo/land_163900.jpg"
+                            "photo/land_095247.webp",
+                            "photo/land_113230.webp",
+                            "photo/land_163900.webp"
                         ]
                     ]
                 },
@@ -207,11 +206,11 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/macro_0028.jpg"
+                            "photo/macro_0028.webp"
                         ],[
-                            "photo/macro_0643.jpg"
+                            "photo/macro_0643.webp"
                         ],[
-                            "photo/macro_0224.jpg"
+                            "photo/macro_0224.webp"
                         ]
                     ]
                 }

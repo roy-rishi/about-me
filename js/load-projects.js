@@ -211,8 +211,7 @@ const content = JSON.parse(
                         ],[
                             "photo/macro_0643.jpg"
                         ],[
-                            "photo/macro_0224.jpg",
-                            "photo/macro_0697.jpg"
+                            "photo/macro_0224.jpg"
                         ]
                     ]
                 }

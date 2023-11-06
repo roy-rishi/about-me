@@ -125,13 +125,13 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/astro_0226.jpg",
-                            "photo/astro_0231.jpg"
+                            "photo/astro_0226.webp",
+                            "photo/astro_0231.webp"
                         ],[
                             "photo/astro_0227.jpg"
                         ],[
-                            "photo/astro_0245.jpg",
-                            "photo/astro_0222.jpg"
+                            "photo/astro_0245.webp",
+                            "photo/astro_0222.webp"
                         ]
                     ]
                 },
@@ -147,14 +147,13 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/wild_0450.jpg",
-                            "photo/wild_0463.jpg"
+                            "photo/wild_0498.jpg",
+                            "photo/wild_0463.jpg",
+                            "photo/wild_0564.webp"
                         ],[
                             "photo/wild_0481.jpg",
-                            "photo/wild_0498.jpg"
-                        ],[
-                            "photo/wild_0564.jpg",
-                            "photo/wild_0631.jpg"
+                            "photo/wild_0450.jpg",
+                            "photo/wild_0631.webp"
                         ]
                     ]
                 },
@@ -170,16 +169,16 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/flower_0298.jpg",
-                            "photo/flower_0287.jpg",
-                            "photo/flower_0289.jpg"
+                            "photo/flower_0298.webp",
+                            "photo/flower_0287.webp",
+                            "photo/flower_0289.webp"
                         ],[
-                            "photo/flower_0292.jpg",
-                            "photo/flower_0293.jpg"
+                            "photo/flower_0292.webp",
+                            "photo/flower_0293.webp"
                         ],[
-                            "photo/flower_0301.jpg",
-                            "photo/flower_0284.jpg",
-                            "photo/flower_0291.jpg"
+                            "photo/flower_0301.webp",
+                            "photo/flower_0284.webp",
+                            "photo/flower_0291.webp"
                         ]
                     ]
                 },
@@ -188,17 +187,17 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/land_0584.jpg",
-                            "photo/land_0620.jpg",
-                            "photo/land_121539.jpg"
+                            "photo/land_0584.webp",
+                            "photo/land_0620.webp",
+                            "photo/land_121539.webp"
                         ],[
-                            "photo/land_0855.jpg",
-                            "photo/land_2129.jpg",
-                            "photo/land_1026.jpg"
+                            "photo/land_0855.webp",
+                            "photo/land_2129.webp",
+                            "photo/land_1026.webp"
                         ],[
-                            "photo/land_095247.jpg",
-                            "photo/land_113230.jpg",
-                            "photo/land_163900.jpg"
+                            "photo/land_095247.webp",
+                            "photo/land_113230.webp",
+                            "photo/land_163900.webp"
                         ]
                     ]
                 },
@@ -207,12 +206,146 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/macro_0028.jpg"
+                            "photo/macro_0028.webp"
                         ],[
-                            "photo/macro_0643.jpg"
+                            "photo/macro_0643.webp"
                         ],[
-                            "photo/macro_0224.jpg"
+                            "photo/macro_0224.webp"
                         ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "instructables",
+            "title": "Instructables",
+            "descr": "Inspiring others through my projects",
+            "thumbnail": "instructables/01.jpg",
+            "banner": "",
+            "body": [
+                {
+                    "type": "paragraph",
+                    "heading": "What Instructables Is",
+                    "content": [
+                        "Instructables.com is a website that provides a platform for people to share projects with step-by-step instructions for others to make their own. Users can upload their projects, which include detailed instructions, fiiles, and photos to help others replicate or get inspired from their work. It has become a popular resource for people seeking guidance and inspiration for their DIY endeavors, and it increases accessibilty to a range of topics.",
+                        "I publish many of my projects online, hoping they may inspire others. On Instructables, I write clear and concise guides that that anyone can follow. I not only show how I made my project, but also how <span style='font-style:italic;'>anyone</span> can make it. I use a 3D printer, however I explain alternative tools that can be used, how it can be done by hand, and how individuals could leverage community workshops.",
+                        "<a class='button' href='https://www.instructables.com/member/Zero%20To%20Infinity/'>My Profile<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Contests and Achievements",
+                    "content": [
+                        "Instructables runs contests for creating and publishing new high quality projects. They accept international entries from makers of all ages and professions, and have a community panel judge contest entries.",
+                        "I won first prize for a project on making strap-on cleats for traction in ice. The contest was winter themed, so I created a project (detailed below) that made an important safety device more accessible. The judges appreciated my clear presentation of an effective solution to slippery shoes. Out of nearly 100 entries, my entry was selected for the first prize.",
+                        "I won runner up for a student design challenge. I learned a new skill, and designed a project around it. See more below."
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "<h1>Strap-On Cleats for Ice and Snow Traction</h1>",
+                    "content": [
+                        "Winter can be such a blast, but slips and falls from slippery sidewalks and icy roads pose a serious threat to those that need to walk or commute in icy conditions, such as workers, students, or individuals with disabilities. They are at higher risk for serious injury, but don't always have the option to stay indoors. Snow shoes are often an excellent solution, but they are bulky and inaccessible. With many shoe sizes without cleats, this project helps anyone make one for their shoe. Some places rarely experience snow and ice, so homemade strap-on tracks can provide quick, accessible, and affordable relief to icy conditions.",
+                        "<a class='button' href='https://www.instructables.com/Strap-On-Cleats-for-Ice-and-Snow-Traction/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "instructables/01.jpg"
+                        ],[
+                            "instructables/05.jpg"
+                        ]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "CAD Procedure",
+                    "content": [
+                        "With my goal to make it easy for anyone to customize this project to their own needs, I showed an in-depth summary of my design and thought process, highlighting various CAD features that I used to make a cleat for my shoe."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "instructables/06.webp"
+                        ],[
+                            "instructables/03.webp"
+                        ],[
+                            "instructables/04.webp"
+                        ]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "<h1>New Year, New Skill Student Design Challenge</h1>",
+                    "content": [
+                        "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
+                        "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ecologme",
+            "title": "EcologMe",
+            "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
+            "thumbnail": "ecologme/01.png",
+            "banner": "",
+            "body": [
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["ecologme/02.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Details",
+                    "content": [
+                        "EcologMe’s mission is to empower individuals to make a positive impact on the environment. Through user and locale-based input, we generate actionable and motivating ideas for community members to lower their environmental footprint. By leveraging user input that includes their location, budget, and free time, our recommendations are incredibly personalized to address specific needs and preferences. This lends them to solutions that integrate well with the local community and keep individuals motivated to pursue their own goals.",
+                        "EcologMe collects localization input on crucial factors such as air quality, water quality, littering, and biodiversity. Our platform is dedicated to providing tailored solutions that are relevant to each individual's local community. By offering personalized recommendations that address personal concerns and motivations, we aim to inspire and empower individuals to take meaningful action towards a greener and more sustainable future – for their community, and themselves."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Data",
+                    "content": [
+                        ["ecologme/03.png"],
+                        ["ecologme/04.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Individuals must understand and value the projected benefits of changing their behavior. Our platform has this at the heart of its design, making use of a stats page on the user’s local city to highlight pertinent issues that align with the generated suggestions for making progress. This page innovatively unites data with solutions by putting data at the center of the experience to highlight the data-driven nature of the solutions."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "User-Specific Input",
+                    "content": [
+                        ["ecologme/05.png"]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Generated Solutions",
+                    "content": [
+                        ["ecologme/06.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Based on the location-specific data that our website gathered, and the user input, the website generated five ideas. Here, it can be seen that because the user wanted to focus on their home energy usage, the first idea was to install smart thermostats. Unlike any previous software, our project also makes an argument, stating how and why the solution is ideal for the user. Through this creative implementation of emerging AI technology, our website promotes environmentalism at the individual level, a critical step to make a global difference in humanity's footprint."
                     ]
                 }
             ]

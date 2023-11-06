@@ -245,7 +245,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "<h1>Strap-On Cleats for Ice and Snow Traction</h1>",
                     "content": [
-                        "Winter can be such a blast, but slips and falls from slippery sidewalks and icy roads pose a serious threat to those that need to walk or commute in icy conditions, such as workers, students, or individuals with disabilities. They are at higher risk for serious injury, but don't always have the option to stay indoors. Snow shoes are often an excellent solution, but they are bulky and inaccessible. Some places rarely experience snow and ice, so homemade strap-on tracks can provide quick, accessible, and affordable relief to icy conditions.",
+                        "Winter can be such a blast, but slips and falls from slippery sidewalks and icy roads pose a serious threat to those that need to walk or commute in icy conditions, such as workers, students, or individuals with disabilities. They are at higher risk for serious injury, but don't always have the option to stay indoors. Snow shoes are often an excellent solution, but they are bulky and inaccessible. With many shoe sizes without cleats, this project helps anyone make one for their shoe. Some places rarely experience snow and ice, so homemade strap-on tracks can provide quick, accessible, and affordable relief to icy conditions.",
                         "<a class='button' href='https://www.instructables.com/Strap-On-Cleats-for-Ice-and-Snow-Traction/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
                     ]
                 },
@@ -286,6 +286,66 @@ const content = JSON.parse(
                     "content": [
                         "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
                         "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ecologme",
+            "title": "EcologMe",
+            "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
+            "thumbnail": "ecologme/01.png",
+            "banner": "",
+            "body": [
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["ecologme/02.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Details",
+                    "content": [
+                        "EcologMe’s mission is to empower individuals to make a positive impact on the environment. Through user and locale-based input, we generate actionable and motivating ideas for community members to lower their environmental footprint. By leveraging user input that includes their location, budget, and free time, our recommendations are incredibly personalized to address specific needs and preferences. This lends them to solutions that integrate well with the local community and keep individuals motivated to pursue their own goals.",
+                        "EcologMe collects localization input on crucial factors such as air quality, water quality, littering, and biodiversity. Our platform is dedicated to providing tailored solutions that are relevant to each individual's local community. By offering personalized recommendations that address personal concerns and motivations, we aim to inspire and empower individuals to take meaningful action towards a greener and more sustainable future – for their community, and themselves."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Data",
+                    "content": [
+                        ["ecologme/03.png"],
+                        ["ecologme/04.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Individuals must understand and value the projected benefits of changing their behavior. Our platform has this at the heart of its design, making use of a stats page on the user’s local city to highlight pertinent issues that align with the generated suggestions for making progress. This page innovatively unites data with solutions by putting data at the center of the experience to highlight the data-driven nature of the solutions."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "User-Specific Input",
+                    "content": [
+                        ["ecologme/05.png"]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Generated Solutions",
+                    "content": [
+                        ["ecologme/06.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Based on the location-specific data that our website gathered, and the user input, the website generated five ideas. Here, it can be seen that because the user wanted to focus on their home energy usage, the first idea was to install smart thermostats. Unlike any previous software, our project also makes an argument, stating how and why the solution is ideal for the user. Through this creative implementation of emerging AI technology, our website promotes environmentalism at the individual level, a critical step to make a global difference in humanity's footprint."
                     ]
                 }
             ]

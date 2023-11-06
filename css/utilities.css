@@ -89,7 +89,7 @@ a.button:hover {
 }
 
 a.button:hover > .right-arrow-icon {
-  transform: translateX(6px) scale(1.3) scaleY(0.7);
+  transform: translateX(8px) scale(1.2) scaleY(0.7);
 }
 
 .right-arrow-icon {

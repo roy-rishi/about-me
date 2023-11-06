@@ -49,7 +49,10 @@ function handleScroll() {
   const blur = Math.min(scrollPosition / PIXELS_TO_SCROLL * MAX_BLUR, MAX_BLUR);
 
   // opacity
-  let backRGB = getComputedStyle(navbar).backgroundColor.match(/\d+/g); // rbg array
+  // let backRGB = getComputedStyle(navbar).backgroundColor.match(/\d+/g); // rbg array
+  let backRGB = [255, 255, 255]
+  if (getQueryValue("p") == "photo")
+    backRGB = [20, 20, 20];
   navbar.style.backgroundColor = `rgba(${backRGB[0]}, ${backRGB[1]}, ${backRGB[2]}, ${opacity * MAX_OPACITY})`;
   navbar.style.boxShadow = `0px 1px 5px rgba(100, 100, 100, ${opacity * MAX_OPACITY_SHADOW})`;
   // blur

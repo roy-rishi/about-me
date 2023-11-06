@@ -36,6 +36,76 @@ const content = JSON.parse(
             ]
         },
         {
+            "id": "ccc",
+            "title": "Coding Club",
+            "descr": "Coding and Computing Club at Inglemoor High School",
+            "thumbnail": "ccc/01.webp",
+            "banner": "",
+            "body": [
+                {
+                    "type": "paragraph",
+                    "heading": "Club Activities",
+                    "content": [
+                        "Anyone interested in programming, algorithms, and other fields of computer science are encouraged to join. We host events that cater to all levels and interests. Additionally, members of Inglemoor's IB CS, Web Design, and C# classes can benefit from our homework help sessions, tips, and environment to learn.",
+                        "<a class='button' href='https://inglemoorccc.org/'>Club Website<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Northshore Coding Competition",
+                    "content": [
+                        "A competition hosted at our high school, aimed to build upon skills students learned in an out of the classroom throughout the school year. The officer team that I directed created questions and solutions, fundraised for food, and promoted the event to highschoolers in our school district. Additionally, we reached out to sponsors and guest speakers, bringing a principal machine learning scientist at Microsoft and a software development manager at Amazon to speak to our attendees on their life stories.",
+                        "With 35 students in attendance from around the district, the event was an all-round success. We learned a lot, and we are bringing this event back for April, 2024.",
+                        "<a class='button' href='https://ncc.inglemoorccc.org/'>Competition Page<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        [
+                            "ccc/02.jpg",
+                            "ccc/06.jpg"
+                        ],[
+                            "ccc/05.jpg"
+                        ],[
+                            "ccc/03.jpg",
+                            "ccc/07.jpg"
+                        ]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Viking Coding Cup",
+                    "content": [
+                        "A school-wide event with a variety of competition categories. It aimed to be accessible to programmers of all levels, with problems ranging in difficulty level. Hosted in monetary collaboration with Inglemoor Technology Student Association, the officer team that I directed created questions and solutions and promoted the event through our school's publications, class presentations, and online media."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["ccc/08.jpg"]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Our Mascot",
+                    "content": [
+                        [
+                            "red-panda/2.webp",
+                            "red-panda/0.webp"
+                        ],[
+                            "red-panda/3.webp",
+                            "red-panda/4.webp"
+                        ],[
+                            "red-panda/1.webp"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "id": "violin-robot",
             "title": "Violin Robot",
             "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
@@ -217,6 +287,66 @@ const content = JSON.parse(
             ]
         },
         {
+            "id": "ecologme",
+            "title": "EcologMe",
+            "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
+            "thumbnail": "ecologme/01.png",
+            "banner": "",
+            "body": [
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["ecologme/02.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Details",
+                    "content": [
+                        "EcologMe’s mission is to empower individuals to make a positive impact on the environment. Through user and locale-based input, we generate actionable and motivating ideas for community members to lower their environmental footprint. By leveraging user input that includes their location, budget, and free time, our recommendations are incredibly personalized to address specific needs and preferences. This lends them to solutions that integrate well with the local community and keep individuals motivated to pursue their own goals.",
+                        "EcologMe collects localization input on crucial factors such as air quality, water quality, littering, and biodiversity. Our platform is dedicated to providing tailored solutions that are relevant to each individual's local community. By offering personalized recommendations that address personal concerns and motivations, we aim to inspire and empower individuals to take meaningful action towards a greener and more sustainable future – for their community, and themselves."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Data",
+                    "content": [
+                        ["ecologme/03.png"],
+                        ["ecologme/04.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Individuals must understand and value the projected benefits of changing their behavior. Our platform has this at the heart of its design, making use of a stats page on the user’s local city to highlight pertinent issues that align with the generated suggestions for making progress. This page innovatively unites data with solutions by putting data at the center of the experience to highlight the data-driven nature of the solutions."
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "User-Specific Input",
+                    "content": [
+                        ["ecologme/05.png"]
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Generated Solutions",
+                    "content": [
+                        ["ecologme/06.png"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "Based on the location-specific data that our website gathered, and the user input, the website generated five ideas. Here, it can be seen that because the user wanted to focus on their home energy usage, the first idea was to install smart thermostats. Unlike any previous software, our project also makes an argument, stating how and why the solution is ideal for the user. Through this creative implementation of emerging AI technology, our website promotes environmentalism at the individual level, a critical step to make a global difference in humanity's footprint."
+                    ]
+                }
+            ]
+        },
+        {
             "id": "instructables",
             "title": "Instructables",
             "descr": "Inspiring others through my projects",
@@ -286,66 +416,6 @@ const content = JSON.parse(
                     "content": [
                         "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
                         "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "ecologme",
-            "title": "EcologMe",
-            "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
-            "thumbnail": "ecologme/01.png",
-            "banner": "",
-            "body": [
-                {
-                    "type": "gallery",
-                    "heading": "",
-                    "content": [
-                        ["ecologme/02.png"]
-                    ]
-                },
-                {
-                    "type": "paragraph",
-                    "heading": "Details",
-                    "content": [
-                        "EcologMe’s mission is to empower individuals to make a positive impact on the environment. Through user and locale-based input, we generate actionable and motivating ideas for community members to lower their environmental footprint. By leveraging user input that includes their location, budget, and free time, our recommendations are incredibly personalized to address specific needs and preferences. This lends them to solutions that integrate well with the local community and keep individuals motivated to pursue their own goals.",
-                        "EcologMe collects localization input on crucial factors such as air quality, water quality, littering, and biodiversity. Our platform is dedicated to providing tailored solutions that are relevant to each individual's local community. By offering personalized recommendations that address personal concerns and motivations, we aim to inspire and empower individuals to take meaningful action towards a greener and more sustainable future – for their community, and themselves."
-                    ]
-                },
-                {
-                    "type": "gallery",
-                    "heading": "Data",
-                    "content": [
-                        ["ecologme/03.png"],
-                        ["ecologme/04.png"]
-                    ]
-                },
-                {
-                    "type": "paragraph",
-                    "heading": "",
-                    "content": [
-                        "Individuals must understand and value the projected benefits of changing their behavior. Our platform has this at the heart of its design, making use of a stats page on the user’s local city to highlight pertinent issues that align with the generated suggestions for making progress. This page innovatively unites data with solutions by putting data at the center of the experience to highlight the data-driven nature of the solutions."
-                    ]
-                },
-                {
-                    "type": "gallery",
-                    "heading": "User-Specific Input",
-                    "content": [
-                        ["ecologme/05.png"]
-                    ]
-                },
-                {
-                    "type": "gallery",
-                    "heading": "Generated Solutions",
-                    "content": [
-                        ["ecologme/06.png"]
-                    ]
-                },
-                {
-                    "type": "paragraph",
-                    "heading": "",
-                    "content": [
-                        "Based on the location-specific data that our website gathered, and the user input, the website generated five ideas. Here, it can be seen that because the user wanted to focus on their home energy usage, the first idea was to install smart thermostats. Unlike any previous software, our project also makes an argument, stating how and why the solution is ideal for the user. Through this creative implementation of emerging AI technology, our website promotes environmentalism at the individual level, a critical step to make a global difference in humanity's footprint."
                     ]
                 }
             ]

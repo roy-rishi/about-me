@@ -1,12 +1,4 @@
 
-/* Icons */
-
-.right-arrow-icon {
-  width: 16px;
-  height: 16px;
-  margin-top: 1px;
-}
-
 /* .footer-icon {
   width: 20px;
   height: 20px;
@@ -91,6 +83,18 @@ a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+}
+
+a.button:hover > .right-arrow-icon {
+  transform: translateX(6px) scale(1.1);
+}
+
+.right-arrow-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+
+  transition: all 0.1s ease-in;
 }
 
 

@@ -77,16 +77,19 @@ a.button {
   display: flex;
   gap: 5px;
   align-items: center;
+
+  transition: all 0.1s ease-in;
 }
 
 a.button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  transform: scale(1.02);
 }
 
 a.button:hover > .right-arrow-icon {
-  transform: translateX(6px) scale(1.1);
+  transform: translateX(6px) scale(1.3) scaleY(0.7);
 }
 
 .right-arrow-icon {
@@ -94,7 +97,8 @@ a.button:hover > .right-arrow-icon {
   height: 16px;
   margin-top: 1px;
 
-  transition: all 0.1s ease-in;
+  transition: all 0.12s ease-in;
+  transform: scaleX(1);
 }
 
 

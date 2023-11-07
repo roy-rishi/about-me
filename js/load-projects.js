@@ -109,7 +109,7 @@ const content = JSON.parse(
             "id": "violin-robot",
             "title": "Violin Robot",
             "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
-            "thumbnail": "violin-robot/render2.webp",
+            "thumbnail": "violin-robot/01.jpg",
             "body": [
                 {
                     "type": "paragraph",
@@ -117,6 +117,13 @@ const content = JSON.parse(
                     "content": [
                         "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here.",
                         "Design files at: <a href='https://github.com/roy-rishi/violin-robot' class='no-underline'>github.com/roy-rishi/violin-robot</a>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["violin-robot/02.jpg"]
                     ]
                 },
                 {

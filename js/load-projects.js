@@ -183,7 +183,7 @@ const content = JSON.parse(
             "id": "photo",
             "title": "Photography",
             "descr": "",
-            "thumbnail": "photo/wild_0498.jpg",
+            "thumbnail": "photo/wild_0498.webp",
             "banner": "",
             "body": [
                 {
@@ -205,7 +205,7 @@ const content = JSON.parse(
                             "photo/astro_0226.webp",
                             "photo/astro_0231.webp"
                         ],[
-                            "photo/astro_0227.jpg"
+                            "photo/astro_0227.webp"
                         ],[
                             "photo/astro_0245.webp",
                             "photo/astro_0222.webp"
@@ -224,12 +224,12 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/wild_0498.jpg",
-                            "photo/wild_0463.jpg",
+                            "photo/wild_0498.webp",
+                            "photo/wild_0463.webp",
                             "photo/wild_0564.webp"
                         ],[
-                            "photo/wild_0481.jpg",
-                            "photo/wild_0450.jpg",
+                            "photo/wild_0481.webp",
+                            "photo/wild_0450.webp",
                             "photo/wild_0631.webp"
                         ]
                     ]

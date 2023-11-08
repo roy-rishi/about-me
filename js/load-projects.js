@@ -297,14 +297,14 @@ const content = JSON.parse(
             "id": "ecologme",
             "title": "EcologMe",
             "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
-            "thumbnail": "ecologme/01.png",
+            "thumbnail": "ecologme/01.webp",
             "banner": "",
             "body": [
                 {
                     "type": "gallery",
                     "heading": "",
                     "content": [
-                        ["ecologme/02.png"]
+                        ["ecologme/02.webp"]
                     ]
                 },
                 {
@@ -319,8 +319,8 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "Data",
                     "content": [
-                        ["ecologme/03.png"],
-                        ["ecologme/04.png"]
+                        ["ecologme/03.webp"],
+                        ["ecologme/04.webp"]
                     ]
                 },
                 {
@@ -334,14 +334,14 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "User-Specific Input",
                     "content": [
-                        ["ecologme/05.png"]
+                        ["ecologme/05.webp"]
                     ]
                 },
                 {
                     "type": "gallery",
                     "heading": "Generated Solutions",
                     "content": [
-                        ["ecologme/06.png"]
+                        ["ecologme/06.webp"]
                     ]
                 },
                 {

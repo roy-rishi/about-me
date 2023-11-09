@@ -1,3 +1,7 @@
+// set url origin to local or server location
+var imgBaseURL = window.location.origin === "file://" ? "./assets/images/" : window.location.origin + "/assets/images/";
+var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "/project";
+
 const content = JSON.parse(
     `
     [
@@ -109,21 +113,21 @@ const content = JSON.parse(
             "id": "violin-robot",
             "title": "Violin Robot",
             "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
-            "thumbnail": "violin-robot/01.jpg",
+            "thumbnail": "violin-robot/render/hero-right2.png",
             "body": [
                 {
                     "type": "paragraph",
                     "heading": "Details",
                     "content": [
-                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here.",
-                        "Design files at: <a href='https://github.com/roy-rishi/violin-robot' class='no-underline'>github.com/roy-rishi/violin-robot</a>"
+                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here."
                     ]
                 },
                 {
-                    "type": "gallery",
-                    "heading": "",
+                    "type": "paragraph",
+                    "heading": "Computer-Aided Design",
                     "content": [
-                        ["violin-robot/02.jpg"]
+                        "<span style='font-style: italic; font-weight: 800;'>Click and drag</span> to the left or right to interact with the model below",
+                        "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },
                 {
@@ -183,7 +187,7 @@ const content = JSON.parse(
             "id": "photo",
             "title": "Photography",
             "descr": "",
-            "thumbnail": "photo/wild_0498.jpg",
+            "thumbnail": "photo/wild_0498.webp",
             "banner": "",
             "body": [
                 {
@@ -205,7 +209,7 @@ const content = JSON.parse(
                             "photo/astro_0226.webp",
                             "photo/astro_0231.webp"
                         ],[
-                            "photo/astro_0227.jpg"
+                            "photo/astro_0227.webp"
                         ],[
                             "photo/astro_0245.webp",
                             "photo/astro_0222.webp"
@@ -224,12 +228,12 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "photo/wild_0498.jpg",
-                            "photo/wild_0463.jpg",
+                            "photo/wild_0498.webp",
+                            "photo/wild_0463.webp",
                             "photo/wild_0564.webp"
                         ],[
-                            "photo/wild_0481.jpg",
-                            "photo/wild_0450.jpg",
+                            "photo/wild_0481.webp",
+                            "photo/wild_0450.webp",
                             "photo/wild_0631.webp"
                         ]
                     ]
@@ -297,14 +301,14 @@ const content = JSON.parse(
             "id": "ecologme",
             "title": "EcologMe",
             "descr": "A website that generates actionable ideas for anyone to lower their environmental footprint",
-            "thumbnail": "ecologme/01.png",
+            "thumbnail": "ecologme/01.webp",
             "banner": "",
             "body": [
                 {
                     "type": "gallery",
                     "heading": "",
                     "content": [
-                        ["ecologme/02.png"]
+                        ["ecologme/02.webp"]
                     ]
                 },
                 {
@@ -319,8 +323,8 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "Data",
                     "content": [
-                        ["ecologme/03.png"],
-                        ["ecologme/04.png"]
+                        ["ecologme/03.webp"],
+                        ["ecologme/04.webp"]
                     ]
                 },
                 {
@@ -334,14 +338,14 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "User-Specific Input",
                     "content": [
-                        ["ecologme/05.png"]
+                        ["ecologme/05.webp"]
                     ]
                 },
                 {
                     "type": "gallery",
                     "heading": "Generated Solutions",
                     "content": [
-                        ["ecologme/06.png"]
+                        ["ecologme/06.webp"]
                     ]
                 },
                 {
@@ -617,10 +621,6 @@ function loadHomePage() {
 }
 
 
-
-// set url origin to local or server location
-var imgBaseURL = window.location.origin === "file://" ? "./assets/images/" : window.location.origin + "/assets/images/";
-var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "/project";
 
 console.log("images at " + imgBaseURL);
 

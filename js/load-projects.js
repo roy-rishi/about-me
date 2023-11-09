@@ -1,3 +1,7 @@
+// set url origin to local or server location
+var imgBaseURL = window.location.origin === "file://" ? "./assets/images/" : window.location.origin + "/assets/images/";
+var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "/project";
+
 const content = JSON.parse(
     `
     [
@@ -109,21 +113,21 @@ const content = JSON.parse(
             "id": "violin-robot",
             "title": "Violin Robot",
             "descr": "A violin playing robot built on precise Computer-Aided Design & powered by a custom circuit board",
-            "thumbnail": "violin-robot/01.jpg",
+            "thumbnail": "violin-robot/render/hero-right2.png",
             "body": [
                 {
                     "type": "paragraph",
                     "heading": "Details",
                     "content": [
-                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here.",
-                        "Design files at: <a href='https://github.com/roy-rishi/violin-robot' class='no-underline'>github.com/roy-rishi/violin-robot</a>"
+                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here."
                     ]
                 },
                 {
-                    "type": "gallery",
-                    "heading": "",
+                    "type": "paragraph",
+                    "heading": "Computer-Aided Design",
                     "content": [
-                        ["violin-robot/02.jpg"]
+                        "Click and drag to the left or right to interact with the model below",
+                        "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },
                 {
@@ -617,10 +621,6 @@ function loadHomePage() {
 }
 
 
-
-// set url origin to local or server location
-var imgBaseURL = window.location.origin === "file://" ? "./assets/images/" : window.location.origin + "/assets/images/";
-var projectBaseURL = window.location.origin === "file://" ? "project.html" : window.location.origin + "/project";
 
 console.log("images at " + imgBaseURL);
 

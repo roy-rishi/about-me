@@ -126,7 +126,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Computer-Aided Design",
                     "content": [
-                        "Click and drag to the left or right to interact with the model below",
+                        "<span style='font-style: italic; font-weight: 800;'>Click and drag</span> to the left or right to interact with the model below",
                         "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },

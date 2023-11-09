@@ -56,7 +56,7 @@
 <body>
   <div id="viewer-container">
     <!-- first image url -->
-    <img id="viewer" src="36-frame-table/frame.0.png" width=100% height=auto>
+    <img id="viewer" src="36-frame-table/frame.0.webp" width=100% height=auto>
     <div class="actions">
       <i id="btn-home" class="icons home" onclick="gotoHome();"></i>
       <i id="btn-fullscreen" class="icons fullscreen" onclick="toggleFullscreen();"></i>
@@ -133,8 +133,9 @@
       var viewer = document.getElementById('viewer');
       var imageUrls = [];
 
+      // add directories to list
       for (let i = 0; i < 36; i++) {
-        imageUrls.push(`36-frame-table/frame.${i}.png`);
+        imageUrls.push(`36-frame-table/frame.${i}.webp`);
         console.log(imageUrls);
       }
 

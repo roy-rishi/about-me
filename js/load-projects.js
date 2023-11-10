@@ -126,7 +126,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Computer-Aided Design",
                     "content": [
-                        "<span style='font-style: italic; font-weight: 800;'>Click and drag</span> to the left or right to interact with the model below",
+                        "<span style='font-style: italic;'>Click and drag</span> to the left or right to interact with the model below",
                         "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },
@@ -435,31 +435,31 @@ const content = JSON.parse(
             "id": "tsa",
             "title": "Inglemoor TSA",
             "descr": "Inglemoor's Technology Student Association (TSA) chapter",
-            "thumbnail": "tsa/03.jpg",
+            "thumbnail": "tsa/01.jpg",
             "banner": "",
             "body": [
                 {
                     "type": "paragraph",
-                    "heading": "Details",
+                    "heading": "Club Activities",
                     "content": [
-                        "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
-                        "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
-                        "— WWF"
+                        "We prepare members for success in the Washington TSA and National TSA conferences. By competing in a variety of events at these conferences, students have the chance to network with other students and develop real-world skills.",
+                        "<a class='button' href='https://main--inglemoortsa.netlify.app/'>Club Website<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Resources",
+                    "content": [
+                        "Creating and releasing resources for members to use is a significant part of what we do. As a president, I brainstorm and launch initiatives to achieve this goal. In addition to the workshops, presentations, and mentorship program that we have, we have utilized online resources. Our website, which I became the webmaster of, links to several resources, and condenses information into easy-to-use formats. For example, there is a page to help members learn about the events that TSA offers."
+                        
                     ]
                 },
                 {
                     "type": "gallery",
-                    "heading": "Gallery",
+                    "heading": "",
                     "content": [
-                        [
-                            "red-panda/2.webp",
-                            "red-panda/0.webp"
-                        ],[
-                            "red-panda/3.webp",
-                            "red-panda/4.webp"
-                        ],[
-                            "red-panda/1.webp"
-                        ]
+                        ["tsa/02.png"],
+                        ["tsa/03.png"]
                     ]
                 }
             ]

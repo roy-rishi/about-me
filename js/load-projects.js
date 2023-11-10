@@ -68,13 +68,13 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "ccc/02.jpg",
-                            "ccc/06.jpg"
+                            "ccc/02.webp",
+                            "ccc/06.webp"
                         ],[
-                            "ccc/05.jpg"
+                            "ccc/05.webp"
                         ],[
-                            "ccc/03.jpg",
-                            "ccc/07.jpg"
+                            "ccc/03.webp",
+                            "ccc/07.webp"
                         ]
                     ]
                 },
@@ -89,7 +89,7 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "",
                     "content": [
-                        ["ccc/08.jpg"]
+                        ["ccc/08.webp"]
                     ]
                 },
                 {
@@ -126,7 +126,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Computer-Aided Design",
                     "content": [
-                        "<span style='font-style: italic; font-weight: 800;'>Click and drag</span> to the left or right to interact with the model below",
+                        "<span style='font-style: italic;'>Click and drag</span> to the left or right, or click on the image, to interact with the model below",
                         "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },
@@ -361,7 +361,7 @@ const content = JSON.parse(
             "id": "instructables",
             "title": "Instructables",
             "descr": "Inspiring others through my projects",
-            "thumbnail": "instructables/01.jpg",
+            "thumbnail": "instructables/01.webp",
             "banner": "",
             "body": [
                 {
@@ -395,9 +395,9 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "instructables/01.jpg"
+                            "instructables/01.webp"
                         ],[
-                            "instructables/05.jpg"
+                            "instructables/05.webp"
                         ]
                     ]
                 },
@@ -435,31 +435,103 @@ const content = JSON.parse(
             "id": "tsa",
             "title": "Inglemoor TSA",
             "descr": "Inglemoor's Technology Student Association (TSA) chapter",
-            "thumbnail": "tsa/03.jpg",
+            "thumbnail": "tsa/01.jpg",
             "banner": "",
             "body": [
                 {
                     "type": "paragraph",
-                    "heading": "Details",
+                    "heading": "Club Activities",
                     "content": [
-                        "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
-                        "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
-                        "— WWF"
+                        "We prepare members for success in the Washington TSA and National TSA conferences. By competing in a variety of events at these conferences, students have the chance to network with other students and develop real-world skills.",
+                        "<a class='button' href='https://main--inglemoortsa.netlify.app/'>Club Website<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "Resources",
+                    "content": [
+                        "Creating and releasing resources for members to use is a significant part of what we do. As a president, I brainstorm and launch initiatives to achieve this goal. In addition to the workshops, presentations, and mentorship program that we have, we have utilized online resources. Our website, which I became the webmaster of, links to several resources, and condenses information into easy-to-use formats. For example, there is a page to help members learn about the events that TSA offers."
+                        
                     ]
                 },
                 {
                     "type": "gallery",
-                    "heading": "Gallery",
+                    "heading": "",
                     "content": [
-                        [
-                            "red-panda/2.webp",
-                            "red-panda/0.webp"
-                        ],[
-                            "red-panda/3.webp",
-                            "red-panda/4.webp"
-                        ],[
-                            "red-panda/1.webp"
-                        ]
+                        ["tsa/02.jpg"],
+                        ["tsa/03.jpg"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "<h1>Awards</h1>",
+                    "content": [
+                        "Results from my time competing at the Washington TSA state-level conference. I have competed in the following events:",
+                        "<span style='font-weight: 700;'>Computer-Aided Design (CAD) 3D Engineering</span>: With time constraints, use CAD to make a 3D representation of a product. The preliminary round is judged on a 3D drawing and the semifinal round is judged based on the design solution and interview.",
+                        "<span style='font-weight: 700;'>Software Development</span>: Teams will design, implement, test, and document a software development project in advance of the competition. The project should have plausible educational or social value.",
+                        "<span style='font-weight: 700;'>Coding</span>: Coding or logic problems must be solved in a constrained amount of time. The preliminary round is judged based on a test and the semifinal round is judged based on the design and construction of problem solutions."
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "2023",
+                    "content": [
+                        "<h3><span style='font-style: italic; font-weight: 700;'>2nd Place</span> – Computer-Aided Design (CAD) 3D Engineering</h3>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["tsa/c01.jpg"],
+                        ["tsa/c02.jpg"],
+                        ["tsa/c03.jpg"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "<h3><span style='font-style: italic;'>2nd Place</span> – Software Development</h3>",
+                        "My team and I developed Tool Link, a website that allows anyone to rent their tools, or workshops, to makers on the internet. As students interested in STEM, we can attest to the fact that it is extremely difficult to find the necessary tools to complete our ambitious projects. On the other hand, many might own 3D printers, laser cutters, lathes, and other tools, but without regularly using them. Without these tools, students can't make projects that could be the first step to change the world. <span style='font-style: italic; font-weight: 700;'>What if we could connect these people?</span>",
+                        "<a class='button' href='https://www.tool-link.org/'>Tool Link<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["tsa/c04.jpg"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "2022",
+                    "content": [
+                        "<h3><span style='font-style: italic; font-weight: 700;'>2nd Place</span> – Computer-Aided Design (CAD) 3D Engineering</h3>"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "",
+                    "content": [
+                        ["tsa/c05.jpg"],
+                        ["tsa/c06.jpg"],
+                        ["tsa/c07.jpg"]
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "",
+                    "content": [
+                        "<h3><span style='font-style: italic; font-weight: 700;'>2nd Place</span> – Coding</h3>"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "heading": "2021",
+                    "content": [
+                        "<h3><span style='font-style: italic; font-weight: 700;'>4th Place</span> – Computer-Aided Design (CAD) 3D Engineering</h3>"
                     ]
                 }
             ]

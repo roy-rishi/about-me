@@ -134,7 +134,7 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "Annotated Components",
                     "content": [
-                        ["violin-robot/render/annotated-parts1.png"]
+                        ["violin-robot/render/annotated-parts1.webp"]
                     ]
                 },
                 {
@@ -150,7 +150,7 @@ const content = JSON.parse(
                     "type": "gallery",
                     "heading": "",
                     "content": [
-                        ["violin-robot/render/back-annotated1.png"]
+                        ["violin-robot/render/back-annotated1.webp"]
                     ]
                 },
                 {

@@ -3,7 +3,6 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width" />
-  <title>Turntable</title>
   <style>
 
     body {
@@ -18,38 +17,6 @@
       width: 100%;
       height: auto;
       background-color: white;
-    }
-
-    .reel-overlay {
-      margin: auto;
-    }
-
-    .icons {
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    .actions {
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-    }
-
-    .icons.home {
-      width: 36px;
-      height: 36px;
-    }
-
-    .icons.fullscreen {
-      width: 36px;
-      height: 36px;
-      background-position: 0 -54px;
-    }
-
-    .icons.exit-fullscreen {
-      width: 36px;
-      height: 36px;
-      background-position: 0 -108px;
     }
   </style>
 </head>
@@ -147,6 +114,23 @@
         }
         );
     });
+
+    function fixHeightBug() {
+      var viewerReel = document.getElementById("viewer-reel");
+
+      if (viewerReel == null) {
+        console.log("retrying");
+        setTimeout(() => {
+          fixHeightBug();
+        }, 1000);
+      } else {
+        console.log("setting height");
+        viewerReel.style.height = "inherit";
+      }
+    }
+
+    fixHeightBug();
+
   </script>
 </body>
 </html>

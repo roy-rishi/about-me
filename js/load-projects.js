@@ -41,7 +41,7 @@ const content = JSON.parse(
         },
         {
             "id": "ccc",
-            "title": "Coding Club",
+            "title": "Inglemoor Coding Club",
             "descr": "Coding and Computing Club at Inglemoor High School",
             "thumbnail": "ccc/01.webp",
             "banner": "",
@@ -427,6 +427,39 @@ const content = JSON.parse(
                     "content": [
                         "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
                         "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tsa",
+            "title": "Inglemoor TSA",
+            "descr": "Inglemoor's Technology Student Association (TSA) chapter",
+            "thumbnail": "tsa/03.jpg",
+            "banner": "",
+            "body": [
+                {
+                    "type": "paragraph",
+                    "heading": "Details",
+                    "content": [
+                        "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees.",
+                        "Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
+                        "— WWF"
+                    ]
+                },
+                {
+                    "type": "gallery",
+                    "heading": "Gallery",
+                    "content": [
+                        [
+                            "red-panda/2.webp",
+                            "red-panda/0.webp"
+                        ],[
+                            "red-panda/3.webp",
+                            "red-panda/4.webp"
+                        ],[
+                            "red-panda/1.webp"
+                        ]
                     ]
                 }
             ]

@@ -119,7 +119,8 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "",
                     "content": [
-                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Still a work in progress; Highlights in its Computer-Aided Design (CAD) and electronics are available here."
+                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Few other instruments demand the speed, agility, and precision, that the violin does. With a long bow that needs to be guided precisely through its stroke, and a fingerboard without frets, it takes years of practice to master this instrument as a human. <span style='font-style: italic;'>Could a robot learn it to play the violin?</span> Better yet, could it learn new pieces without human input? The project and the answer to that question are a work in progress; highlights in its Computer-Aided Design (CAD) and electronics are available one this page.",
+                        "The robot will take input of any song by MIDI, and plan the motion of the robot. Just like a human, the robot will dynamically adjust it's motion according to real-time audio and motion feedback. These systems, paired with specifically designed mechanics, will work together to drive the robot at the high speeds and extreme precision that playing the violin demands. Through this project, I hope to develop software and mechanical systems that advance my ability to perform complex, human tasks through technology. Regardless, I know that I have and will continue to take away skills that I would have never had if not for this project, and I hope to implement those in medicine and sustainability in the future."
                     ]
                 },
                 {
@@ -141,9 +142,9 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "",
                     "content": [
-                        "<h3>Label 1</h3>The two z-axis carriages are responsible for guiding the bow rail upwards and downwards. They move a short distance vertically, allowing for the robot to modulate the pressure of the bow on the violin's string, dynamically adjust for misalignments throughout the bow-stroke, and provide other self-correcting measures. More on the design decisions behind this this further down the page.",
-                        "<h3>Label 2</h3>This carriage holds a real violin bow (bow not pictured) in its clamp, and contrains its sliding motion to the left and right as pictured. It rides on v-wheels positioned to direct counter-forces perpendicularly into the rail for precision even under the load of being pressed against the violin's strings. They are tensioned against the rail through the elasticity of the carriage, allowing for the lowest tolerances in its motion regardless of pressure. Note: This carriage was previously designed for a 20x40mm rail, however the design has since changed to use a 20x20mm rail to reduce moving mass. This is why the guide wheels have not yet been redesigned to fit the new, thinner rail.",
-                        "<h3>Label 3</h3>This arm supports a real violin, allowing it to rotate. This allows the robot to select which string, or strings, will make contact with the bow. More on the design decisions behind this this further down the page."
+                        "<h3>Component 1</h3>The two z-axis carriages are responsible for guiding the bow rail upwards and downwards. They move a short distance vertically, allowing for the robot to modulate the pressure of the bow on the violin's string, dynamically adjust for misalignments throughout the bow-stroke, and provide other self-correcting measures.",
+                        "<h3>Component 2</h3>This carriage holds a real violin bow (bow not pictured) in its clamp, and contrains its sliding motion to the left and right as pictured. It rides on v-wheels positioned to direct counter-forces perpendicularly into the rail for precision even under the load of being pressed against the violin's strings. They are tensioned against the rail through the elasticity of the carriage, allowing for the lowest tolerances in its motion regardless of pressure. Note: This carriage was previously designed for a 20x40mm rail, however the design has since changed to use a 20x20mm rail to reduce moving mass. This is why the guide wheels have not yet been redesigned to fit the new, thinner rail.",
+                        "<h3>Component 3</h3>This arm supports a real violin, allowing it to rotate. This allows the robot to select which string, or strings, will make contact with the bow."
                     ]
                 },
                 {
@@ -157,23 +158,23 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "",
                     "content": [
-                        "<h3>Label 4</h3>At the forefront of the fingering mechanism is this carriage. It rapidly slides alongst the length of the string, controlling the pitch by contacting the string with a roller. Given the need for both speed and extreme precision, this was the most challenging aspect of the robot's mechanics. Prior revisions of this mechanism can be found further down the page. It is belt-driven and powered by two high-amperage stepper motors. As it is critical to minimize the weight of the moving carriage, it uses a different type of rail than the bow. This allows for plastic bushings to guide the carriage long the rail instead of the heavier v-wheels and accompanying hardware. The weight savings allow for faster movements with greater precision and reduced risk of lost steps.",
-                        "<h3>Label 5</h3>This smaller carriage mounts the roller that contacts the violin's strings. It dynamically adjusts for the slant of the violin strings, and can lift away from the string. It is extremely light-weight to allow for rapid movements along the lenght of the string. Although it is currently operated by a micro-servo mounted to the sliding carriage, future revisions will be remotely actuated by a cable (similar to cable-actuated bike brake) further minimizing weight while allowing for speed beyond the capabilities of a micro-servo. Prior revisions of this mechanism can be found further down the page."
+                        "<h3>Component 4</h3>At the forefront of the fingering mechanism is this carriage. It rapidly slides alongst the length of the string, controlling the pitch by contacting the string with a roller. Given the need for both speed and extreme precision, this was the most challenging aspect of the robot's mechanics. It is belt-driven and powered by two high-amperage stepper motors. As it is critical to minimize the weight of the moving carriage, it uses a different type of rail than the bow. This allows for plastic bushings to guide the carriage long the rail instead of the heavier v-wheels and accompanying hardware. The weight savings allow for faster movements with greater precision and reduced risk of lost steps.",
+                        "<h3>Component 5</h3>This smaller carriage mounts the roller that contacts the violin's strings. It dynamically adjusts for the slant of the violin strings, and can lift away from the string. It is extremely light-weight to allow for rapid movements along the lenght of the string. Although it is currently operated by a micro-servo mounted to the sliding carriage, future revisions will be remotely actuated by a cable (similar to cable-actuated bike brake) further minimizing weight while allowing for speed beyond the capabilities of a micro-servo."
                     ]
                 },
                 {
                     "type": "paragraph",
                     "heading": "Interactive Model",
                     "content": [
-                        "Click on the image, or <span style='font-style: italic;'>click and drag</span> to the left or right, to interact with the model below",
+                        "Click on the image, or click and drag to the left or right, to interact with the model below",
                         "<iframe src='${imgBaseURL}violin-robot/36-frame-table.html' width='100%' height='640px' frameborder='0' scrolling='no'>"
                     ]
                 },
                 {
                     "type": "paragraph",
-                    "heading": "Computer-Aided Design",
+                    "heading": "Physical Build",
                     "content": [
-                        "Most components are 3D printed. Designed over the past 6 months and on-going, with two complete revisions."
+                        "Various components and versions of the robot. Most parts have several revisions, and can be seen lined up. There were many unused prototypes and revisions that brough the robot to its current stage."
                     ]
                 },
                 {
@@ -181,15 +182,9 @@ const content = JSON.parse(
                     "heading": "",
                     "content": [
                         [
-                            "violin-robot/cad1.webp",
-                            "violin-robot/cad6.webp",
-                            "violin-robot/cad2.webp"
+                            "violin-robot/01.jpg"
                         ],[
-                            "violin-robot/cad8.webp",
-                            "violin-robot/cad7.webp"
-                        ],[
-                            "violin-robot/cad3.webp",
-                            "violin-robot/cad4.webp"
+                            "violin-robot/02.jpg"
                         ]
                     ]
                 },
@@ -197,7 +192,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "<h1>Specialized Circuit Board</h1>",
                     "content": [
-                        "Based on the ATmega2560 microcontroller, this board performs hardware actions requested by a Raspberry Pi single board computer. It drives 6 stepper motors, takes sensor input, and manages a custom active cooling system. It implements robust power supply circuity and cooling to drive motors at 36 V, for a system maximum of 360 W."
+                        "Based on the ATmega2560 microcontroller, this board performs hardware actions requested by a Raspberry Pi single board computer. It drives 6 stepper motors, takes sensor input, and manages a custom active cooling system. It implements robust power supply circuity and cooling to drive motors at 36 V, for a system maximum of 360 W. The software will be written for the Raspberry Pi and the custom board."
                     ]
                 },
                 {
@@ -225,8 +220,8 @@ const content = JSON.parse(
         {
             "id": "photo",
             "title": "Photography",
-            "descr": "",
-            "thumbnail": "photo/wild_0498.webp",
+            "descr": "Capturing nature through photography",
+            "thumbnail": "photo/wild_0481-crop.webp",
             "banner": "",
             "body": [
                 {

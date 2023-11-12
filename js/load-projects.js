@@ -50,7 +50,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Club Activities",
                     "content": [
-                        "Anyone interested in programming, algorithms, and other fields of computer science are encouraged to join. We host events that cater to all levels and interests. Additionally, members of Inglemoor's IB CS, Web Design, and C# classes can benefit from our homework help sessions, tips, and environment to learn.",
+                        "We host events that cater to all levels and interests in computer science. Additionally, members of Inglemoor's IB CS, Web Design, and C# classes can benefit from our homework help sessions, tips, and environment to learn.",
                         "<a class='button' href='https://inglemoorccc.org/'>Club Website<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
                     ]
                 },
@@ -58,7 +58,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Northshore Coding Competition",
                     "content": [
-                        "A competition hosted at our high school, aimed to build upon skills students learned in an out of the classroom throughout the school year. The officer team that I directed created questions and solutions, fundraised for food, and promoted the event to highschoolers in our school district. Additionally, we reached out to sponsors and guest speakers, bringing a principal machine learning scientist at Microsoft and a software development manager at Amazon to speak to our attendees on their life stories.",
+                        "A competition that we hosted at our high school. It aimed to build upon skills students learned in an out of the classroom throughout the school year. The officer team that I directed created questions and solutions, fundraised for food, and promoted the event to highschoolers in our school district. Additionally, we reached out to sponsors and guest speakers, bringing a principal machine learning scientist at Microsoft and a software development manager at Amazon to speak to our attendees on their life stories.",
                         "With 35 students in attendance from around the district, the event was an all-round success. We learned a lot, and we are bringing this event back for April, 2024.",
                         "<a class='button' href='https://ncc.inglemoorccc.org/'>Competition Page<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
                     ]
@@ -82,7 +82,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Viking Coding Cup",
                     "content": [
-                        "A school-wide event with a variety of competition categories. It aimed to be accessible to programmers of all levels, with problems ranging in difficulty level. Hosted in monetary collaboration with Inglemoor Technology Student Association, the officer team that I directed created questions and solutions and promoted the event through our school's publications, class presentations, and online media."
+                        "A school-wide event with a variety of competition categories. It aimed to be accessible to programmers of all levels, with problems ranging in difficulty level. The officer team that I directed created questions and solutions and promoted the event through our school's publications, class presentations, and online media."
                     ]
                 },
                 {
@@ -119,8 +119,8 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "",
                     "content": [
-                        "Designed to explore how precision robotics can apply machine learning to perform the intricate task of playing the violin. Few other instruments demand the speed, agility, and precision, that the violin does. With a long bow that needs to be guided precisely through its stroke, and a fingerboard without frets, it takes years of practice to master this instrument as a human. <span style='font-style: italic;'>Could a robot learn it to play the violin?</span> Better yet, could it learn new pieces without human input? The project and the answer to that question are a work in progress; highlights in its Computer-Aided Design (CAD) and electronics are available one this page.",
-                        "The robot will take input of any song by MIDI, and plan the motion of the robot. Just like a human, the robot will dynamically adjust it's motion according to real-time audio and motion feedback. These systems, paired with specifically designed mechanics, will work together to drive the robot at the high speeds and extreme precision that playing the violin demands. Through this project, I hope to develop software and mechanical systems that advance my ability to perform complex, human tasks through technology. Regardless, I know that I have and will continue to take away skills that I would have never had if not for this project, and I hope to implement those in medicine and sustainability in the future."
+                        "Designed to explore how robotics can apply machine learning to perform the intricate task of playing the violin. Few other instruments demand the speed, agility, and precision, that the violin does. With a long bow that needs to be guided precisely through its stroke, and a fingerboard without frets, it takes years of dedicated practice to master this instrument. <span style='font-style: italic;'>Could a robot learn to play the violin?</span> Better yet, could it learn new pieces without human input? With endless possibilities for achieving this, the project and the answer to that question are a work in progress; highlights in its Computer-Aided Design (CAD) and electronics are available one this page.",
+                        "The robot will take input of any song by a MIDI and audio file, and plan the motion of the robot. Just like a human, the robot will dynamically adjust it's motion according to real-time audio and motion feedback. These systems, paired with specialized mechanics, will work together to drive the robot at the high speeds and extreme precision that playing the violin demands. Through this project, I am developing software and mechanical systems that advance my skills in robotics. I know that I have and will continue to take away skills that I would have never had if not for this project, and I hope to implement those in medicine and sustainability in the future."
                     ]
                 },
                 {
@@ -232,7 +232,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [
-                        "I visit remote forests, tweaking my camera settings until I reveal the starry night. Mount Rainier National Park is my ultimate photography location."
+                        "I visit remote forests, tweaking my camera settings until I capture the starry night. Mount Rainier National Park is my favorite photography destination."
                     ]
                 },
                 {
@@ -276,7 +276,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Other Photography",
                     "content": [
-                        "I am always taking photos, bringing a camera with me to more places than not. Below, you'll find various galleries of my shots."
+                        "I'm always taking photos, bringing a camera with me to more places than not. Below, you'll find various galleries of my shots."
                     ]
                 },
                 {
@@ -402,8 +402,8 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "What Instructables Is",
                     "content": [
-                        "Instructables.com is a website that provides a platform for people to share projects with step-by-step instructions for others to make their own. Users can upload their projects, which include detailed instructions, fiiles, and photos to help others replicate or get inspired from their work. It has become a popular resource for people seeking guidance and inspiration for their DIY endeavors, and it increases accessibilty to a range of topics.",
-                        "I publish many of my projects online, hoping they may inspire others. On Instructables, I write clear and concise guides that that anyone can follow. I not only show how I made my project, but also how <span style='font-style:italic;'>anyone</span> can make it. I use a 3D printer, however I explain alternative tools that can be used, how it can be done by hand, and how individuals could leverage community workshops.",
+                        "Instructables is a website that provides a platform for people to share projects with step-by-step instructions for others to replicate. Users can upload their projects, which include detailed instructions, fiiles, and photos to help others replicate or get inspired from their work. It has become a popular resource for people seeking guidance and inspiration for their DIY endeavors, and it increases accessibilty to a range of topics.",
+                        "I publish many of my projects online, hoping they may inspire others. On Instructables, I write clear and concise guides that that anyone can follow. I not only show how I made my project, but also how <span style='font-style:italic;'>anyone</span> can make it. I use a 3D printer, however I explain alternative tools that can be used, how it can be done by hand, and how individuals could leverage community resources.",
                         "<a class='button' href='https://www.instructables.com/member/Zero%20To%20Infinity/'>My Profile<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
                     ]
                 },
@@ -459,7 +459,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "<h1>New Year, New Skill Student Design Challenge</h1>",
                     "content": [
-                        "I designed a project that used a new skill for me, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a sheet metal die project.",
+                        "I designed a project in which I learned a new skill, Sheet Metal CAD Tools, and entered this into this contest. I showed what I learned, teaching others the same skill throught a novel approach to manufacturing.",
                         "<a class='button' href='https://www.instructables.com/Custom-Paper-Dice-Using-Sheet-Metal-CAD-Tools/'>My Project<image src='./assets/icons/arrow-right.svg' class='right-arrow-icon'/></a>"
                     ]
                 }

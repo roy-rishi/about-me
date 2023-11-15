@@ -174,7 +174,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Physical Build",
                     "content": [
-                        "Various components and versions of the robot. Most parts have several revisions, and can be seen lined up. There were many unused prototypes and revisions that brough the robot to its current stage."
+                        "Various components and versions of the robot. Most parts have several revisions, and can be seen lined up. There were many unused prototypes and revisions that brought the robot to its current stage."
                     ]
                 },
                 {

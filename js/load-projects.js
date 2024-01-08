@@ -229,6 +229,10 @@ const content = JSON.parse(
                     "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\} .right-arrow-icon \{filter:invert(1);\}"
                 },
                 {
+                    "type": "script",
+                    "content": "document.querySelector(':root').style.setProperty('--title-color', 'rgb(235, 235, 235)');   document.querySelector(':root').style.setProperty('--paragraph-color', 'rgb(196, 196, 196)');   document.querySelector(':root').style.setProperty('--background-color', 'rgb(20, 20, 20)');"
+                },
+                {
                     "type": "paragraph",
                     "heading": "Astrophotography",
                     "content": [

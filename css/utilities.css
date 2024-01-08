@@ -37,7 +37,6 @@ a.icon-link:hover {
 }
 
 .navbar * {
-  color: black;
   text-decoration: none;
 }
 
@@ -69,9 +68,9 @@ a.icon-link:hover {
 
 a.button {
   padding: 8px 16px;
-  border: 3px solid #141414;
+  border: 3px solid var(--title-color);
   border-radius: 50px;
-  color: black;
+  color: var(--title-color);
   text-decoration: none;
   width: fit-content;
   display: flex;
@@ -79,6 +78,8 @@ a.button {
   align-items: center;
 
   transition: all 0.1s ease-in;
+  /* fit background color */
+  mix-blend-mode: multiply;
 }
 
 a.button:hover {

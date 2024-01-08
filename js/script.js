@@ -1,8 +1,6 @@
 const DELAY_SHOW_LOADING=200; // delay before showing loading icon (ms)
 
-
 console.log("script loaded at " +  performance.now());
-
 
 // manage loading icon
 var showingLoading = false;
@@ -41,6 +39,11 @@ const MAX_BLUR=30;
 const MAX_OPACITY=0.85;
 const MAX_OPACITY_SHADOW=0.22
 
+function rgbStringToArray(rgbString) {
+  const values = rgbString.substring(rgbString.indexOf('(') + 1, rgbString.indexOf(')')).split(',');
+  return values.map(value => parseInt(value.trim()));
+}
+
 function handleScroll() {
   const navbar = document.querySelector("#navbar");
   const scrollPosition = window.scrollY;
@@ -49,10 +52,11 @@ function handleScroll() {
   const blur = Math.min(scrollPosition / PIXELS_TO_SCROLL * MAX_BLUR, MAX_BLUR);
 
   // opacity
-  // let backRGB = getComputedStyle(navbar).backgroundColor.match(/\d+/g); // rbg array
-  let backRGB = [255, 255, 255]
-  if (getQueryValue("p") == "photo")
-    backRGB = [20, 20, 20];
+  // get background color from css variable
+  var r = document.querySelector(':root');
+  var rs = getComputedStyle(r);
+  let backHex = rs.getPropertyValue('--background-color');
+  let backRGB = rgbStringToArray(backHex);
   navbar.style.backgroundColor = `rgba(${backRGB[0]}, ${backRGB[1]}, ${backRGB[2]}, ${opacity * MAX_OPACITY})`;
   navbar.style.boxShadow = `0px 1px 5px rgba(100, 100, 100, ${opacity * MAX_OPACITY_SHADOW})`;
   // blur

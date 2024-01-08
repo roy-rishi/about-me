@@ -174,7 +174,7 @@ const content = JSON.parse(
                     "type": "paragraph",
                     "heading": "Physical Build",
                     "content": [
-                        "Various components and versions of the robot. Most parts have several revisions, and can be seen lined up. There were many unused prototypes and revisions that brough the robot to its current stage."
+                        "Various components and versions of the robot. Most parts have several revisions, and can be seen lined up. There were many unused prototypes and revisions that brought the robot to its current stage."
                     ]
                 },
                 {
@@ -227,6 +227,10 @@ const content = JSON.parse(
                 {
                     "type": "style",
                     "content": "body \{background-color: rgb(20, 20, 20); color: white;\} \#navbar \{background-color: rgb(20, 20, 20);\} \#navbar * \{color:white;\} .right-arrow-icon \{filter:invert(1);\}"
+                },
+                {
+                    "type": "script",
+                    "content": "document.querySelector(':root').style.setProperty('--title-color', 'rgb(235, 235, 235)');   document.querySelector(':root').style.setProperty('--paragraph-color', 'rgb(196, 196, 196)');   document.querySelector(':root').style.setProperty('--background-color', 'rgb(20, 20, 20)');"
                 },
                 {
                     "type": "paragraph",
@@ -589,7 +593,7 @@ function getQueryValue(q) {
 function loadHeader(proj) {
     // title
     title = document.createElement("div");
-    title.setAttribute("class", "main-title");
+    title.setAttribute("class", "project-main-title");
     title.innerHTML = proj["title"];
     document.getElementById("project-header").appendChild(title);
 

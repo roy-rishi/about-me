@@ -593,7 +593,7 @@ function getQueryValue(q) {
 function loadHeader(proj) {
     // title
     title = document.createElement("div");
-    title.setAttribute("class", "main-title");
+    title.setAttribute("class", "project-main-title");
     title.innerHTML = proj["title"];
     document.getElementById("project-header").appendChild(title);
 

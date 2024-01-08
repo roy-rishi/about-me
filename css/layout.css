@@ -24,6 +24,86 @@ body {
 }
 
 
+
+/* TYPOGRAPHY */
+
+body {
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: var(--title-color);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+
+  color: var(--title-color);
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image-caption {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-title {
+  font-size: 120px;
+  font-weight: 700;
+
+  color: var(--title-color);
+}
+
+.project-main-title {
+  font-size: 80px;
+  font-weight: 700;
+
+  color: var(--title-color);
+}
+
+.subheader-text {
+  font-size: 26px;
+  font-weight: 700;
+
+  color: var(--title-color);
+}
+
+.body-text {
+  font-size: 18px;
+  font-weight: 500;
+
+  color: var(--paragraph-color);
+}
+
+.project-card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+
+
+
+
 /* MAIN PAGE LAYOUT */
 
 .main-content {
@@ -70,7 +150,7 @@ body {
   gap: 34px;
   flex-basis: 50%;
   position: absolute;
-  top: 35vh;
+  top: 25vh;
 }
 
 #title-gif {
@@ -162,6 +242,7 @@ body {
       object-fit: cover;
       object-position: center;
       object-fit:cover;
+      border-radius: 15px 0px;
     }
 
 
@@ -295,17 +376,25 @@ body {
   }
 
   /* make image gallery inline*/
-    .gallery-container {
-      flex-direction: column;
-    }
+  .gallery-container {
+    flex-direction: column;
+  }
 
-    .gallery-container .column {
-      width: 100%;
-    }
-    /* image and caption */
-    .gallery-container .column .image-container {
-      margin-bottom: 40px;
-    }
+  .gallery-container .column {
+    width: 100%;
+  }
+  /* image and caption */
+  .gallery-container .column .image-container {
+    margin-bottom: 40px;
+  }
+
+  .main-title {
+    font-size: 80px;
+  }
+
+  .project-main-title {
+    font-size: 50px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */

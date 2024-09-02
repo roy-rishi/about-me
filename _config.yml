@@ -1,1 +1,2 @@
-include: [".well-known/assetlinks.json"]
+include:
+  - /.well-known/assetlinks.json

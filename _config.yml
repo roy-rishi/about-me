@@ -1,2 +1,3 @@
+# Jekyll build config
 include:
-  - .well-known
+  - .example
